@@ -1,0 +1,589 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题 | Jin&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Jin (zxjsdp)">
+    
+
+    
+    <meta name="description" content="Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位置的，毕竟国内的视频网站大多靠视频播放前的超长广告来赚钱，它们暂时没有意愿去做出有利于用户体验或者纯粹地追求技术进步的行动。">
+<meta name="keywords" content="tips,win10,firefox,flash">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题">
+<meta property="og:url" content="http://yoursite.com/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/index.html">
+<meta property="og:site_name" content="Jin&#39;s Blog">
+<meta property="og:description" content="Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位置的，毕竟国内的视频网站大多靠视频播放前的超长广告来赚钱，它们暂时没有意愿去做出有利于用户体验或者纯粹地追求技术进步的行动。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://zxjsdp1.qiniudn.com/adobe-flash-player.jpg">
+<meta property="og:updated_time" content="2016-05-16T16:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题">
+<meta name="twitter:description" content="Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位置的，毕竟国内的视频网站大多靠视频播放前的超长广告来赚钱，它们暂时没有意愿去做出有利于用户体验或者纯粹地追求技术进步的行动。">
+<meta name="twitter:image" content="http://zxjsdp1.qiniudn.com/adobe-flash-player.jpg">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Jin&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Jin&#39;s Blog" title="Jin&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Jin&#39;s Blog">Jin&#39;s Blog</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/" title="解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题" itemprop="url">解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Jin (zxjsdp)" target="_blank" itemprop="author">Jin (zxjsdp)</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-15T01:55:16.000Z" itemprop="datePublished"> 发表于 2015-09-15</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			
+		
+		</div>
+		
+		<p>Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位置的，毕竟国内的视频网站大多靠视频播放前的超长广告来赚钱，它们暂时没有意愿去做出有利于用户体验或者纯粹地追求技术进步的行动。</p>
+<p><img src="http://zxjsdp1.qiniudn.com/adobe-flash-player.jpg" alt="adobe-flash-player"></p>
+<p>近期一位同学的电脑（联想 x420s，Intel i7 处理器，仅核心显卡）出现了很奇怪的问题，只要进入含有 Flash 元素的网页，不论是 IE 还是 Firefox（包括新建配置）都会马上卡死，Chrome则不会。尝试了各种方法无果，由于 IE 和 Firefox 均会出现问题，因此可以排除是 Firefox 自己的 Flash Player Plugin 问题。后来想到会不会是因为 Flash 硬件加速造成的。这台电脑近期升级了 Win10，有可能跟之前声卡驱动类似，是因为驱动不完全兼容 Win10。于是在设备管理器中核心显卡上右键<code>更新驱动程序软件</code>，然后选择<code>自动搜索更新的驱动程序软件</code>，系统就自己搜寻适合的显卡驱动并且安装了（为 Win10 的驱动搜索成功率点赞）。更新完成重启，IE 和 Firefox 打开 Flash 网页卡死的现象均消失了。</p>
+<p>如果以后再遇到不正常的情况，根据之前声卡和这次显卡的教训，可能要着重考虑是不是旧驱动对 Win10 的兼容性造成的了。</p>
+<hr>
+<p>Flash 在某个版本后加入了沙箱，虽然是为了增加安全性，但是却非常明显地导致了性能下降和崩溃现象。可以通过某些方法关闭沙箱来改善：</p>
+<ol>
+<li><p>新建纯文本文件，命名为<code>mms.cfg</code>，向里面添加如下内容：</p>
+<pre><code>RTMFPP2PDisable=1
+SilentAutoUpdateEnable=1
+AutoUpdateDisable=0
+ProtectedMode=0
+</code></pre></li>
+<li><p>根据32位或者64位系统，进入相应的目录，将<code>mms.cfg</code>文件复制到这个目录（可能需要管理员权限）：</p>
+<ul>
+<li>Windows 32位系统：C:\windows\system32\macromed\flash</li>
+<li>Windows 64位系统：C:\windows\syswow64\macromed\flash</li>
+</ul>
+</li>
+</ol>
+<p>这样可以关闭沙箱，并且禁用 Flash 的自动上传。</p>
+<p>针对 Firefox，还有另外一些设置以供参考：</p>
+<ol>
+<li>使用免沙箱版本的 Flash Player（文件名类似于<code>NPSWF32_19_0_0_162.dll</code>，可在<a href="http://bbs.kafan.cn/forum.php?mod=forumdisplay&amp;fid=215&amp;page=1" target="_blank" rel="external">卡饭论坛 Firefox 专区</a>寻找网友维护的提取免沙箱版 Flash 文件），放置于<code>C:\Program Files (x86)\Mozilla Firefox\plugins</code>目录下。</li>
+<li>进入<code>about:addons</code>，点击左侧的<code>插件</code>，在插件列表中寻找<code>Shockwave Flash xx.xx.xx...</code>，点击<code>选项</code>，取消选择<code>开启 Flash 保护模式</code>。</li>
+<li>进入<code>about:config</code>，在搜索栏里输入<code>protected</code>，寻找<code>dom.ipc.plugins.flash.disable-protected-mode</code>，双击将 value 改为<code>true</code>。</li>
+<li>进入<code>about:config</code>，寻找<code>plugin.allow.asyncdrawing</code>和<code>dom.ipc.plugins.asyncInit</code>，将值都改为<code>true</code>。</li>
+</ol>
+<p>另外对于视频花屏卡顿等现象，也有人尝试关闭 Flash 的硬件加速即可缓解。具体方法是在任意 Flash 元素上右键，打开 Flash 选项，取消使用 Flash 硬件加速即可。当然取消硬件加速可能会造成 CPU 使用率增加。</p>
+<p>参考资料：</p>
+<ul>
+<li><a href="bbs.kafan.cn/thread-1781001-1-1.html">视频卡顿，火狐卡蹦？flash官方提供了默认的关闭沙箱简单方法，且一劳永逸。。</a></li>
+<li><a href="http://bbs.kafan.cn/thread-1848863-1-1.html" target="_blank" rel="external">简单粗暴解决flash视频卡顿问题</a></li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Tips/">Tips</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/tips/">tips</a><a href="/tags/win10/">win10</a><a href="/tags/firefox/">firefox</a><a href="/tags/flash/">flash</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/" data-title="解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题 | Jin&#39;s Blog" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/09/16/解决Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-问题/" title="解决 Ubuntu &quot;ssh: connect to host localhost port 22: Connection refused&quot; 问题">
+  <strong>上一篇：</strong><br/>
+  <span>
+  解决 Ubuntu &quot;ssh: connect to host localhost port 22: Connection refused&quot; 问题</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/"  title="Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式">
+ <strong>下一篇：</strong><br/> 
+ <span>Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<div class="github-card" data-github="zxjsdp" data-width="100%" data-height="119" data-theme="medium">
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Chrome/" title="Chrome">Chrome<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Life/" title="Life">Life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Mac/" title="Mac">Mac<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Python/" title="Python">Python<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Tips/" title="Tips">Tips<sup>13</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/tips/" title="tips">tips<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/python/" title="python">python<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/win10/" title="win10">win10<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrant/" title="vagrant">vagrant<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/app/" title="app">app<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/error/" title="error">error<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/life/" title="life">life<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/random/" title="random">random<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/subscript/" title="subscript">subscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/share/" title="share">share<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrantfile/" title="vagrantfile">vagrantfile<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vim/" title="vim">vim<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/undo/" title="undo">undo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/redo/" title="redo">redo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/shortcuts/" title="shortcuts">shortcuts<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/superscript/" title="superscript">superscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/color/" title="color">color<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/intersection/" title="intersection">intersection<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/union/" title="union">union<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://moflying.com" target="_blank" title="我的博客">我的博客</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello，我是一个热爱生活和技术的人. <br/>
+			我在这里分享我学习和成长的足迹.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zxjsdp" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="Jin (zxjsdp)">Jin (zxjsdp)</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

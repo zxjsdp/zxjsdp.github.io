@@ -1,0 +1,701 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧 | Jin&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Jin (zxjsdp)">
+    
+
+    
+    <meta name="description" content="转载信息：转载自程序师网站：Linux mkdir、tar 和 kill 命令的 4 个有用小技巧 英文原文：4 Useful Tips on mkdir, tar and kill Commands in Linux 4个小技巧：我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！ 4">
+<meta name="keywords" content="tips,linux,skills,command">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧">
+<meta property="og:url" content="http://yoursite.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/index.html">
+<meta property="og:site_name" content="Jin&#39;s Blog">
+<meta property="og:description" content="转载信息：转载自程序师网站：Linux mkdir、tar 和 kill 命令的 4 个有用小技巧 英文原文：4 Useful Tips on mkdir, tar and kill Commands in Linux 4个小技巧：我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！ 4">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2015-09-05T16:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧">
+<meta name="twitter:description" content="转载信息：转载自程序师网站：Linux mkdir、tar 和 kill 命令的 4 个有用小技巧 英文原文：4 Useful Tips on mkdir, tar and kill Commands in Linux 4个小技巧：我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！ 4">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Jin&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Jin&#39;s Blog" title="Jin&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Jin&#39;s Blog">Jin&#39;s Blog</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/" title="[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧" itemprop="url">[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Jin (zxjsdp)" target="_blank" itemprop="author">Jin (zxjsdp)</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-06T12:18:41.000Z" itemprop="datePublished"> 发表于 2015-09-06</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#转载信息："><span class="toc-number">1.</span> <span class="toc-text">转载信息：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4个小技巧："><span class="toc-number">2.</span> <span class="toc-text">4个小技巧：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#热身："><span class="toc-number">2.1.</span> <span class="toc-text">热身：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#技巧说明："><span class="toc-number">2.2.</span> <span class="toc-text">技巧说明：</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<h2 id="转载信息："><a href="#转载信息：" class="headerlink" title="转载信息："></a>转载信息：</h2><p>转载自<a href="http://www.techug.com" target="_blank" rel="external">程序师网站</a>：<a href="http://www.techug.com/mkdir-tar-and-kill-commands-in-linux" target="_blank" rel="external">Linux mkdir、tar 和 kill 命令的 4 个有用小技巧</a></p>
+<p>英文原文：<a href="http://www.tecmint.com/mkdir-tar-and-kill-commands-in-linux/" target="_blank" rel="external">4 Useful Tips on mkdir, tar and kill Commands in Linux</a></p>
+<h2 id="4个小技巧："><a href="#4个小技巧：" class="headerlink" title="4个小技巧："></a>4个小技巧：</h2><p>我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！</p>
+<p>4 个有用的 Linux 小技巧</p>
+<h3 id="热身："><a href="#热身：" class="headerlink" title="热身："></a>热身：</h3><pre><code>1. $ mkdir -p tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}
+
+2. $ cat &lt;&lt; EOF &gt; /home/$USER/Desktop/test
+   $ ABC
+   $ DEF
+   $ GHI
+   $ JKL
+   $ MNO
+   $ PQR
+   $ STU
+   $ VWX
+   $ Y
+   $ Z
+   $ EOF
+
+3. $ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/
+
+4. $ pkill apache2
+   $ pgrep -l apache2
+</code></pre><h3 id="技巧说明："><a href="#技巧说明：" class="headerlink" title="技巧说明："></a>技巧说明：</h3><ol>
+<li><p>假设你要创建一个类似于下面很长的/复杂的目录树。实现这最有效的方法是什么呢？</p>
+<p> 类似下面要实现的目录树结构。</p>
+<pre><code>$ cd /home/$USER/Desktop
+$ mkdir tecmint
+$ mkdir tecmint/etc
+$ mkdir tecmint/lib
+$ mkdir tecmint/usr
+$ mkdir tecmint/bin
+$ mkdir tecmint/tmp
+$ mkdir tecmint/opt
+$ mkdir tecmint/var
+$ mkdir tecmint/etc/x1
+$ mkdir tecmint/usr/x2
+$ mkdir tecmint/usr/x3
+$ mkdir tecmint/tmp/Y1
+$ mkdir tecmint/tmp/Y2
+$ mkdir tecmint/tmp/Y3
+$ mkdir tecmint/tmp/Y3/z
+</code></pre><p> 上述情况可以简单地通过运行下面一行命令来实现。</p>
+<pre><code>$ mkdir -p /home/$USER/Desktop/tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}
+</code></pre><p> 你可以用 <code>tree</code> 命令验证。如果没有安装你可以使用 <code>apt</code> 或 <code>yum</code> 安装 ‘<code>tree</code>’ 软件包。</p>
+<pre><code>$ tree tecmint
+</code></pre><p> 检查目录结构</p>
+<p> 我们可以用上面的方式创建任意复杂的目录树结构。注意这仅仅是一个普通的命令，但是用 ‘<code>{}</code>’ 来创建层级目录。需要的时候如果在 shell 脚本中使用是非常有用的。</p>
+</li>
+<li><p>在桌面（<code>/home/$USER/Desktop</code>）创建一个文件（例如 <code>test</code>）并填入以下内容。</p>
+<pre><code>ABC
+DEF
+GHI
+JKL
+MNO
+PQR
+STU
+VWX
+Y
+Z
+</code></pre><p> 这种情况一个普通用户会怎么做呢？</p>
+<p> a. 他首先会创建文件，最好使用 <code>touch</code> 命令，例如：</p>
+<pre><code>$ touch /home/$USER/Desktop/test
+</code></pre><p> b. 他会用一个文本编辑器打开文件，这可能是 nano、vim 或其它编辑器。</p>
+<pre><code>$ nano /home/$USER/Desktop/test
+</code></pre><p> c. 然后他会将上面的内容输入到文件中，保存并退出。</p>
+<p> 忽略他/她使用的时间，他至少需要 3 步来执行上面的情况。</p>
+<p> 一个经验丰富的 Linux 用户会怎么做呢？他会在终端中输入下面的文本然后就完成所有任务。他不需要单独执行每一步。</p>
+<pre><code>cat &lt;&lt; EOF &gt; /home/$USER/Desktop/test
+ABC
+DEF
+GHI
+JKL
+MNO
+PQR
+STU
+VWX
+Y
+Z
+EOF
+</code></pre><p> 你可以用 ‘<code>cat</code>’ 命令检查是否成功创建了文件和内容。</p>
+<pre><code>$ cat /home/avi/Desktop/test
+</code></pre><p> 检查文件内容</p>
+</li>
+<li><p>我们经常在 Linux 中处理归档文件（尤其是 TAR 包）。很多情况下我们会在某些位置，而不是在 Downloads 目录中使用 TAR 包。这种情况下我们怎么做呢？</p>
+<p> 在这种情况下我们通常会做两件事。</p>
+<p> a. 复制/移动 tar 包到目标位置并解压，例如：</p>
+<pre><code>$ cp firefox-37.0.2.tar.bz2 /opt/
+</code></pre><p> 或</p>
+<pre><code>$ mv firefox-37.0.2.tar.bz2 /opt/
+</code></pre><p> b. <code>cd</code> 到 <code>/opt/</code> 目录。</p>
+<pre><code>$ cd /opt/
+</code></pre><p> c. 解压 tar 包。</p>
+<pre><code># tar -jxvf firefox-37.0.2.tar.bz2
+</code></pre><p> 我们也可以采用另外一种方式。</p>
+<p> 我们也可以在 Tar 包所在位置解压并复制/移动解压后的文件到所需的目标位置，例如：</p>
+<pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 
+$ cp -R firefox/ /opt/
+</code></pre><p> 或</p>
+<pre><code>$ mv firefox/ /opt/
+</code></pre><p> 不管哪种方式都需要两步才能完成任务。专业的人可以只用一步就完成这个任务：</p>
+<pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/
+</code></pre><p> <code>-C</code> 选项提取文件到指定目录（这里是 <code>/opt/</code>）。</p>
+<p> 这并不是关于选项（<code>-C</code>）的问题，而是习惯的问题。养成使用带 <code>-C</code> 选项 tar 命令的习惯。这会使你的工作更加轻松。从现在开始不要再移动归档文件或复制/移动解压后的文件了，在 Downloads 文件夹保存 tar 包并解压到你想要的任何地方吧。</p>
+</li>
+<li><p>常规方式我们怎样杀掉一个进程？</p>
+<p> 最普遍的方法，我们首先用 <code>ps -A</code> 命令列出所有进程，然后通过管道输入到 <code>grep</code> 来查找进程/服务（假如 apache2），如下：</p>
+<pre><code>$ ps -A | grep -i apache2
+</code></pre><p> 输出样例</p>
+<pre><code>1006 ? 00:00:00 apache2
+2702 ? 00:00:00 apache2
+2703 ? 00:00:00 apache2
+2704 ? 00:00:00 apache2
+2705 ? 00:00:00 apache2
+2706 ? 00:00:00 apache2
+2707 ? 00:00:00 apache2
+</code></pre><p> 上面的输出显示了所有正在运行 apache2 的进程以及它们的 PID，然后你可以使用这些 PID 在下面命令的帮助下杀掉 apache2。</p>
+<pre><code># kill 1006 2702 2703 2704 2705 2706 2707
+</code></pre><p> 然后交叉检查是否还有名称中包含 ‘<code>apache2</code>’ 的进程/服务在运行，如下：</p>
+<pre><code>$ ps -A | grep -i apache2
+</code></pre><p> 实际上我们可以使用类似 <code>pgrep</code> 和 <code>pkill</code> 的工具以一种更容易理解的方式实现。你可以使用 <code>pgrep</code> 找到和一个进程相关的信息。假如你要找和 apache2 相关的进程信息，你只需要运行：</p>
+<pre><code>$ pgrep apache2
+</code></pre><p> 输出样例</p>
+<pre><code>15396
+15400
+15401
+15402
+15403
+15404
+15405
+</code></pre><p> 你也可以通过运行下面命令列出进程名称以及 pid。</p>
+<pre><code>$ pgrep -l apache2
+</code></pre><p> 输出样例</p>
+<pre><code>15396 apache2
+15400 apache2
+15401 apache2
+15402 apache2
+15403 apache2
+15404 apache2
+15405 apache2
+</code></pre><p> 用 <code>pkill</code> 杀掉进程非常简单。你只需要输入想要杀死的资源名称。我写了一篇关于 <code>pkill</code> 的博文，你可以参考： <a href="http://www.tecmint.com/how-to-kill-a-process-in-linux/。" target="_blank" rel="external">http://www.tecmint.com/how-to-kill-a-process-in-linux/。</a></p>
+<p> 用 <code>pkill</code> 杀死一个进程（例如 apache2），你只需要输入以下命令：</p>
+<pre><code># pkill apache2
+</code></pre><p> 你可以通过运行下面命令验证是否杀掉了 apache2。</p>
+<pre><code>$ pgrep -l apache2
+</code></pre><p> 它没有输出任何东西并返回到窗口意味着没有名称中包含 apache2 的进程在运行。</p>
+</li>
+</ol>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Linux/">Linux</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/tips/">tips</a><a href="/tags/linux/">linux</a><a href="/tags/skills/">skills</a><a href="/tags/command/">command</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/" data-title="[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧 | Jin&#39;s Blog" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/09/08/转载-乔布斯在斯坦福大学毕业典礼上的演讲/" title="[转载] 乔布斯在斯坦福大学毕业典礼上的演讲">
+  <strong>上一篇：</strong><br/>
+  <span>
+  [转载] 乔布斯在斯坦福大学毕业典礼上的演讲</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/09/06/解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题/"  title="解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题">
+ <strong>下一篇：</strong><br/> 
+ <span>解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#转载信息："><span class="toc-number">1.</span> <span class="toc-text">转载信息：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4个小技巧："><span class="toc-number">2.</span> <span class="toc-text">4个小技巧：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#热身："><span class="toc-number">2.1.</span> <span class="toc-text">热身：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#技巧说明："><span class="toc-number">2.2.</span> <span class="toc-text">技巧说明：</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<div class="github-card" data-github="zxjsdp" data-width="100%" data-height="119" data-theme="medium">
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Chrome/" title="Chrome">Chrome<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Life/" title="Life">Life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Mac/" title="Mac">Mac<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Python/" title="Python">Python<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Tips/" title="Tips">Tips<sup>13</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/tips/" title="tips">tips<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/python/" title="python">python<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/win10/" title="win10">win10<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrant/" title="vagrant">vagrant<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/app/" title="app">app<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/error/" title="error">error<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/life/" title="life">life<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/random/" title="random">random<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/subscript/" title="subscript">subscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/share/" title="share">share<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrantfile/" title="vagrantfile">vagrantfile<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vim/" title="vim">vim<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/undo/" title="undo">undo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/redo/" title="redo">redo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/shortcuts/" title="shortcuts">shortcuts<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/superscript/" title="superscript">superscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/color/" title="color">color<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/intersection/" title="intersection">intersection<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/union/" title="union">union<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://moflying.com" target="_blank" title="我的博客">我的博客</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello，我是一个热爱生活和技术的人. <br/>
+			我在这里分享我学习和成长的足迹.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zxjsdp" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="Jin (zxjsdp)">Jin (zxjsdp)</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

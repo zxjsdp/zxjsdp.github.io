@@ -1,0 +1,574 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式 | Jin&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Jin (zxjsdp)">
+    
+
+    
+    <meta name="description" content="Undo (撤销)在 Vim 中，undo(撤销)是最常用的操作之一，可以通过按u实现。如果需要进行多次undo（例如需要退回到3次修改以前），可以按3 u。 也可以键入:u或者:undo来进行撤销。这样做的缺点是键入一次只能撤销一次，且不如u方便快捷。 另外U经常被不经意间按到，导致在想要撤销一次更改（u）的时候却发现整行的更改都被撤销了。日常使用中U真正的使用场景相对u来说少很多。 Redo">
+<meta name="keywords" content="tips,vim,undo,redo,shortcuts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式">
+<meta property="og:url" content="http://yoursite.com/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/index.html">
+<meta property="og:site_name" content="Jin&#39;s Blog">
+<meta property="og:description" content="Undo (撤销)在 Vim 中，undo(撤销)是最常用的操作之一，可以通过按u实现。如果需要进行多次undo（例如需要退回到3次修改以前），可以按3 u。 也可以键入:u或者:undo来进行撤销。这样做的缺点是键入一次只能撤销一次，且不如u方便快捷。 另外U经常被不经意间按到，导致在想要撤销一次更改（u）的时候却发现整行的更改都被撤销了。日常使用中U真正的使用场景相对u来说少很多。 Redo">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://zxjsdp1.qiniudn.com/vim-undo-and-redo.png">
+<meta property="og:updated_time" content="2016-05-16T16:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式">
+<meta name="twitter:description" content="Undo (撤销)在 Vim 中，undo(撤销)是最常用的操作之一，可以通过按u实现。如果需要进行多次undo（例如需要退回到3次修改以前），可以按3 u。 也可以键入:u或者:undo来进行撤销。这样做的缺点是键入一次只能撤销一次，且不如u方便快捷。 另外U经常被不经意间按到，导致在想要撤销一次更改（u）的时候却发现整行的更改都被撤销了。日常使用中U真正的使用场景相对u来说少很多。 Redo">
+<meta name="twitter:image" content="http://zxjsdp1.qiniudn.com/vim-undo-and-redo.png">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Jin&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Jin&#39;s Blog" title="Jin&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Jin&#39;s Blog">Jin&#39;s Blog</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/" title="Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式" itemprop="url">Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Jin (zxjsdp)" target="_blank" itemprop="author">Jin (zxjsdp)</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-13T13:22:43.000Z" itemprop="datePublished"> 发表于 2015-09-13</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Undo-撤销"><span class="toc-number">1.</span> <span class="toc-text">Undo (撤销)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Redo-重做"><span class="toc-number">2.</span> <span class="toc-text">Redo (重做)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">3.</span> <span class="toc-text">其他</span></a></li></ol>
+		
+		</div>
+		
+		<p><img src="http://zxjsdp1.qiniudn.com/vim-undo-and-redo.png" alt="vim-undo-and-redo"></p>
+<h2 id="Undo-撤销"><a href="#Undo-撤销" class="headerlink" title="Undo (撤销)"></a>Undo (撤销)</h2><p>在 Vim 中，<code>undo</code>(撤销)是最常用的操作之一，可以通过按<code>u</code>实现。如果需要进行多次<code>undo</code>（例如需要退回到3次修改以前），可以按<code>3 u</code>。</p>
+<p>也可以键入<code>:u</code>或者<code>:undo</code>来进行撤销。这样做的缺点是键入一次只能撤销一次，且不如<code>u</code>方便快捷。</p>
+<p>另外<code>U</code>经常被不经意间按到，导致在想要撤销一次更改（<code>u</code>）的时候却发现整行的更改都被撤销了。日常使用中<code>U</code>真正的使用场景相对<code>u</code>来说少很多。</p>
+<h2 id="Redo-重做"><a href="#Redo-重做" class="headerlink" title="Redo (重做)"></a>Redo (重做)</h2><p>当撤销了一次或者几次操作后，发现撤销得多了，就需要<code>redo</code>来恢复。</p>
+<p>可以通过按<code>CTRL-R</code>来进行重做操作。</p>
+<p>当然也可以通过键入<code>:red</code>或者<code>:redo</code>来进行重做。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>当然还有强大的<code>:earlier/:later</code>命令，可以参考<a href="https://stackoverflow.com/questions/1555779/how-do-i-do-redo-i-e-undo-undo-in-vim" target="_blank" rel="external">StackOverFlow的一个回答</a>。</p>
+<blockquote>
+<p>To redo everything you just need to do <code>later 9999999d</code></p>
+<p>(assuming that you first edited the file at most 9999999 days ago), or,<br>if you remember the difference between current undo state and needed one,<br>Use Nh, Nm or Ns for hours, minutes and seconds respectively. + :later N<cr> &lt;=&gt; Ng+ and :later Nf for file writes.</cr></p>
+</blockquote>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="http://vimdoc.sourceforge.net/htmldoc/undo.html" target="_blank" rel="external">Vim documentation: undo</a></li>
+<li><a href="http://vim.wikia.com/wiki/Undo_and_Redo" target="_blank" rel="external">Undo and Redo</a></li>
+<li><a href="https://stackoverflow.com/questions/1555779/how-do-i-do-redo-i-e-undo-undo-in-vim" target="_blank" rel="external">How do I do redo (i.e. “undo undo”) in Vim?</a></li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Tips/">Tips</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/tips/">tips</a><a href="/tags/vim/">vim</a><a href="/tags/undo/">undo</a><a href="/tags/redo/">redo</a><a href="/tags/shortcuts/">shortcuts</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/" data-title="Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式 | Jin&#39;s Blog" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/" title="解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题">
+  <strong>上一篇：</strong><br/>
+  <span>
+  解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/09/13/使用-Vagrant-在虚拟机上开发-Flask-App-如何在-Host-机上使用浏览器查看/"  title="使用 Vagrant 在虚拟机上开发 Flask App 如何在 Host 机上使用浏览器查看">
+ <strong>下一篇：</strong><br/> 
+ <span>使用 Vagrant 在虚拟机上开发 Flask App 如何在 Host 机上使用浏览器查看
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Undo-撤销"><span class="toc-number">1.</span> <span class="toc-text">Undo (撤销)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Redo-重做"><span class="toc-number">2.</span> <span class="toc-text">Redo (重做)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">3.</span> <span class="toc-text">其他</span></a></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<div class="github-card" data-github="zxjsdp" data-width="100%" data-height="119" data-theme="medium">
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Chrome/" title="Chrome">Chrome<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Life/" title="Life">Life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Mac/" title="Mac">Mac<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Python/" title="Python">Python<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Tips/" title="Tips">Tips<sup>13</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/tips/" title="tips">tips<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/python/" title="python">python<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/win10/" title="win10">win10<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrant/" title="vagrant">vagrant<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/app/" title="app">app<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/error/" title="error">error<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/life/" title="life">life<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/random/" title="random">random<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/subscript/" title="subscript">subscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/share/" title="share">share<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrantfile/" title="vagrantfile">vagrantfile<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vim/" title="vim">vim<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/undo/" title="undo">undo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/redo/" title="redo">redo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/shortcuts/" title="shortcuts">shortcuts<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/superscript/" title="superscript">superscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/color/" title="color">color<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/intersection/" title="intersection">intersection<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/union/" title="union">union<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://moflying.com" target="_blank" title="我的博客">我的博客</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello，我是一个热爱生活和技术的人. <br/>
+			我在这里分享我学习和成长的足迹.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zxjsdp" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="Jin (zxjsdp)">Jin (zxjsdp)</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jin&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-09-13T20:27:48.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Jin (zxjsdp)</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的 Mac Apps 推荐</title>
+    <link href="http://yoursite.com/2017/09/14/%E6%88%91%E7%9A%84-Mac-Apps-%E6%8E%A8%E8%8D%90/"/>
+    <id>http://yoursite.com/2017/09/14/我的-Mac-Apps-推荐/</id>
+    <published>2017-09-13T19:14:39.000Z</published>
+    <updated>2017-09-13T20:27:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>如下为我所推荐的 Mac Apps。</p><h1 id="效率"><a href="#效率" class="headerlink" title="效率"></a>效率</h1><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><h3 id="Alfred"><a href="#Alfred" class="headerlink" title="Alfred"></a>Alfred</h3><p>Alfred 为 Mac 平台著名的快速启动工具。</p><h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><h3 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h3><p><a href="https://www.google.com/chrome/" target="_blank" rel="external">Google Chrome</a> 是由 Google 主导开发的浏览器。</p><h3 id="Mozilla-Firefox"><a href="#Mozilla-Firefox" class="headerlink" title="Mozilla Firefox"></a>Mozilla Firefox</h3><p><a href="https://www.mozilla.org" target="_blank" rel="external">Mozilla Firefox</a> 是由 Mozilla 主导开发的开源浏览器。</p><h2 id="知识管理"><a href="#知识管理" class="headerlink" title="知识管理"></a>知识管理</h2><h3 id="Evernote"><a href="#Evernote" class="headerlink" title="Evernote"></a>Evernote</h3><p><a href="https://evernote.com" target="_blank" rel="external">Evernote</a> 是全球最著名的笔记软件。相较于其他笔记软件，其所具有的特点：</p><ul><li>强大的标签（tag）机制，即使创建了几万个标签也完全没有性能问题。在这个前提下，基于其标签系统进行文件管理、知识归类以及精准搜索变得非常方便。</li><li>完善的多平台同步。</li><li>支持高级搜索语法。</li><li>等等。</li></ul><h2 id="文本编辑器"><a href="#文本编辑器" class="headerlink" title="文本编辑器"></a>文本编辑器</h2><h3 id="Sublime-Text-3"><a href="#Sublime-Text-3" class="headerlink" title="Sublime Text 3"></a>Sublime Text 3</h3><p><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text 3</a> 是一个跨平台的高性能文本编辑器。其所具有的特点：</p><ul><li>庞大的插件生态系统（支持使用 Python 编写插件）。</li><li>强悍的性能。</li><li>完善的热退出（hot_exit）机制，即使未保存的文本，也可以放心退出，在下次打开软件的时候可以完全恢复为退出时的状态。</li><li>等等。</li></ul><h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><h3 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h3><h3 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h3><h3 id="ONI"><a href="#ONI" class="headerlink" title="ONI"></a>ONI</h3><p><a href="https://github.com/extr0py/oni" target="_blank" rel="external">ONI</a></p><h3 id="LightTable"><a href="#LightTable" class="headerlink" title="LightTable"></a>LightTable</h3><h2 id="Markdown-编辑器"><a href="#Markdown-编辑器" class="headerlink" title="Markdown 编辑器"></a>Markdown 编辑器</h2><h3 id="Markdown-Viewer-Chrome-extension"><a href="#Markdown-Viewer-Chrome-extension" class="headerlink" title="Markdown Viewer (Chrome extension)"></a>Markdown Viewer (Chrome extension)</h3><h3 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h3><h3 id="MWeb"><a href="#MWeb" class="headerlink" title="MWeb"></a>MWeb</h3><h3 id="Marp"><a href="#Marp" class="headerlink" title="Marp"></a>Marp</h3><h3 id="Marked-2"><a href="#Marked-2" class="headerlink" title="Marked 2"></a>Marked 2</h3><h3 id="Markdown-Preview-Plus-Chrome-extension"><a href="#Markdown-Preview-Plus-Chrome-extension" class="headerlink" title="Markdown Preview Plus (Chrome extension)"></a>Markdown Preview Plus (Chrome extension)</h3><h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="Fantastical"><a href="#Fantastical" class="headerlink" title="Fantastical"></a>Fantastical</h3><p>日历客户端。</p><h2 id="文本处理套件"><a href="#文本处理套件" class="headerlink" title="文本处理套件"></a>文本处理套件</h2><h3 id="Microsoft-Word"><a href="#Microsoft-Word" class="headerlink" title="Microsoft Word"></a>Microsoft Word</h3><h3 id="Microsoft-Excel"><a href="#Microsoft-Excel" class="headerlink" title="Microsoft Excel"></a>Microsoft Excel</h3><h3 id="Microsoft-PowerPoint"><a href="#Microsoft-PowerPoint" class="headerlink" title="Microsoft PowerPoint"></a>Microsoft PowerPoint</h3><h3 id="Microsoft-OneNote"><a href="#Microsoft-OneNote" class="headerlink" title="Microsoft OneNote"></a>Microsoft OneNote</h3><h3 id="Microsoft-Outlook-2016-for-Mac"><a href="#Microsoft-Outlook-2016-for-Mac" class="headerlink" title="Microsoft Outlook 2016 for Mac"></a>Microsoft Outlook 2016 for Mac</h3><p>Microsoft Outlook 2016 for Mac 为微软所开发的邮件客户端。</p><h1 id="娱乐"><a href="#娱乐" class="headerlink" title="娱乐"></a>娱乐</h1><h2 id="视频播放器"><a href="#视频播放器" class="headerlink" title="视频播放器"></a>视频播放器</h2><h3 id="IINA"><a href="#IINA" class="headerlink" title="IINA"></a>IINA</h3><p>IINA 为一款开源视频播放器，为目前 Mac 上活跃度最高、颜值中上的开源播放器。</p><h3 id="VLC"><a href="#VLC" class="headerlink" title="VLC"></a>VLC</h3><h3 id="mpv"><a href="#mpv" class="headerlink" title="mpv"></a>mpv</h3><p>mpv 为 Mac 平台的一个开源视频播放器。</p><h3 id="Mplayer"><a href="#Mplayer" class="headerlink" title="Mplayer"></a>Mplayer</h3><h3 id="iTVSeries"><a href="#iTVSeries" class="headerlink" title="iTVSeries"></a>iTVSeries</h3><h2 id="音乐播放器"><a href="#音乐播放器" class="headerlink" title="音乐播放器"></a>音乐播放器</h2><h3 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h3><h3 id="VOX"><a href="#VOX" class="headerlink" title="VOX"></a>VOX</h3><h2 id="阅读器"><a href="#阅读器" class="headerlink" title="阅读器"></a>阅读器</h2><h3 id="Calibre"><a href="#Calibre" class="headerlink" title="Calibre"></a>Calibre</h3><h3 id="Simple-Comic"><a href="#Simple-Comic" class="headerlink" title="Simple Comic"></a>Simple Comic</h3><h2 id="图像查看及处理"><a href="#图像查看及处理" class="headerlink" title="图像查看及处理"></a>图像查看及处理</h2><h3 id="Xee3"><a href="#Xee3" class="headerlink" title="Xee3"></a>Xee3</h3><h3 id="Squash"><a href="#Squash" class="headerlink" title="Squash"></a>Squash</h3><p>###</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><h3 id="aria2"><a href="#aria2" class="headerlink" title="aria2"></a>aria2</h3><h3 id="Aria2GUI"><a href="#Aria2GUI" class="headerlink" title="Aria2GUI"></a>Aria2GUI</h3><h1 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h1><h2 id="即时通讯"><a href="#即时通讯" class="headerlink" title="即时通讯"></a>即时通讯</h2><h3 id="微信（Wechat）"><a href="#微信（Wechat）" class="headerlink" title="微信（Wechat）"></a>微信（Wechat）</h3><p>微信 Mac 客户端为腾讯公司所开发。</p><h3 id="Slack"><a href="#Slack" class="headerlink" title="Slack"></a>Slack</h3><h2 id="SSH-amp-FTP"><a href="#SSH-amp-FTP" class="headerlink" title="SSH &amp; FTP"></a>SSH &amp; FTP</h2><h3 id="SecureCRT-amp-SecureFX"><a href="#SecureCRT-amp-SecureFX" class="headerlink" title="SecureCRT &amp; SecureFX"></a>SecureCRT &amp; SecureFX</h3><h3 id="Yummy-FTP-Pro"><a href="#Yummy-FTP-Pro" class="headerlink" title="Yummy FTP Pro"></a>Yummy FTP Pro</h3><h3 id="Transmit"><a href="#Transmit" class="headerlink" title="Transmit"></a>Transmit</h3><h2 id="VPN"><a href="#VPN" class="headerlink" title="VPN"></a>VPN</h2><h3 id="Shimo"><a href="#Shimo" class="headerlink" title="Shimo"></a>Shimo</h3><h3 id="Tunnelblick"><a href="#Tunnelblick" class="headerlink" title="Tunnelblick"></a>Tunnelblick</h3><h3 id="EasyConnect"><a href="#EasyConnect" class="headerlink" title="EasyConnect"></a>EasyConnect</h3><h2 id="系统增强"><a href="#系统增强" class="headerlink" title="系统增强"></a>系统增强</h2><h3 id="Tuxera-Disk-Manager"><a href="#Tuxera-Disk-Manager" class="headerlink" title="Tuxera Disk Manager"></a>Tuxera Disk Manager</h3><h3 id="Bartender-2"><a href="#Bartender-2" class="headerlink" title="Bartender 2"></a>Bartender 2</h3><p><a href="https://www.macbartender.com/" target="_blank" rel="external">Bartender 2</a> 可以将 Mac 菜单栏的图标收缩整理起来，仅直接展示最常用的图标。</p><h3 id="XtraFinder"><a href="#XtraFinder" class="headerlink" title="XtraFinder"></a>XtraFinder</h3><p><a href="https://www.trankynam.com/xtrafinder/" target="_blank" rel="external">XtraFinder</a> 是一款 Mac Finder 增强软件，可以提供 Chrome 风格的 Tab 支持、剪切、拷贝路径、从这里启动、显示隐藏文件等增强功能。</p><h3 id="iStat-Menus"><a href="#iStat-Menus" class="headerlink" title="iStat Menus"></a>iStat Menus</h3><p><a href="">iStat Menus</a> 是一款在菜单栏上显示当前电脑状态的软件。可以提供当前 CPU、内存、存储空间、网络等的统计信息。</p><h3 id="BetterSnapTool"><a href="#BetterSnapTool" class="headerlink" title="BetterSnapTool"></a>BetterSnapTool</h3><h3 id="Spark"><a href="#Spark" class="headerlink" title="Spark"></a>Spark</h3><h3 id="Karabiner-Elements-amp-Karabiner-EventViewer"><a href="#Karabiner-Elements-amp-Karabiner-EventViewer" class="headerlink" title="Karabiner-Elements &amp; Karabiner-EventViewer"></a>Karabiner-Elements &amp; Karabiner-EventViewer</h3><h3 id="CleanMyMac3"><a href="#CleanMyMac3" class="headerlink" title="CleanMyMac3"></a>CleanMyMac3</h3><h3 id="BetterZip4"><a href="#BetterZip4" class="headerlink" title="BetterZip4"></a>BetterZip4</h3><h3 id="SleepPreventer"><a href="#SleepPreventer" class="headerlink" title="SleepPreventer"></a>SleepPreventer</h3><h3 id="PathFinder"><a href="#PathFinder" class="headerlink" title="PathFinder"></a>PathFinder</h3><h3 id="CheatSheet"><a href="#CheatSheet" class="headerlink" title="CheatSheet"></a>CheatSheet</h3><h2 id="流媒体播放"><a href="#流媒体播放" class="headerlink" title="流媒体播放"></a>流媒体播放</h2><h3 id="Serviio-Console"><a href="#Serviio-Console" class="headerlink" title="Serviio-Console"></a>Serviio-Console</h3><h1 id="编程"><a href="#编程" class="headerlink" title="编程"></a>编程</h1><h2 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h2><h3 id="IntelliJ-IDEA"><a href="#IntelliJ-IDEA" class="headerlink" title="IntelliJ IDEA"></a>IntelliJ IDEA</h3><p>IntelliJ IDEA 为 JetBranins 公司所推出的一款现代 Java IDE。</p><h3 id="PyCharm"><a href="#PyCharm" class="headerlink" title="PyCharm"></a>PyCharm</h3><p>PyCharm 为 JetBranins 公司所推出的一款现代 Python IDE。</p><h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="DataGrip"><a href="#DataGrip" class="headerlink" title="DataGrip"></a>DataGrip</h3><p>DataGrip 为 JetBranins 公司所推出的一款现代数据库管理软件。</p><h3 id="Navicat-Premium"><a href="#Navicat-Premium" class="headerlink" title="Navicat Premium"></a>Navicat Premium</h3><h3 id="MySQL-Workbench"><a href="#MySQL-Workbench" class="headerlink" title="MySQL Workbench"></a>MySQL Workbench</h3><h2 id="其他编程工具"><a href="#其他编程工具" class="headerlink" title="其他编程工具"></a>其他编程工具</h2><h3 id="Postman"><a href="#Postman" class="headerlink" title="Postman"></a>Postman</h3><p><a href="https://www.getpostman.com/" target="_blank" rel="external">Postman</a> 是一个 API 开发工具，用于快捷的请求 API 并对其进行管理。</p><h3 id="Charles"><a href="#Charles" class="headerlink" title="Charles"></a>Charles</h3><h3 id="Expressions"><a href="#Expressions" class="headerlink" title="Expressions"></a>Expressions</h3><p>Expressions 是一个正则表达式练习软件。</p><h3 id="TextLab"><a href="#TextLab" class="headerlink" title="TextLab"></a>TextLab</h3><h1 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h1><h2 id="Adobe-系列"><a href="#Adobe-系列" class="headerlink" title="Adobe 系列"></a>Adobe 系列</h2><h3 id="Adobe-Photoshop-CC-2017"><a href="#Adobe-Photoshop-CC-2017" class="headerlink" title="Adobe Photoshop CC 2017"></a>Adobe Photoshop CC 2017</h3><p>Adobe Photoshop CC 2017 为 Adobe 公司所开发的图像编辑软件。</p><h3 id="Adobe-Illustrator-CC-2017"><a href="#Adobe-Illustrator-CC-2017" class="headerlink" title="Adobe Illustrator CC 2017"></a>Adobe Illustrator CC 2017</h3><p>Adobe Illustrator CC 2017 为 Adobe 公司所开发的矢量设计软件。</p><h3 id="Adobe-Acrobat"><a href="#Adobe-Acrobat" class="headerlink" title="Adobe Acrobat"></a>Adobe Acrobat</h3><h3 id="OmniGraffle"><a href="#OmniGraffle" class="headerlink" title="OmniGraffle"></a>OmniGraffle</h3><h1 id="命令行工具"><a href="#命令行工具" class="headerlink" title="命令行工具"></a>命令行工具</h1><h2 id="必装"><a href="#必装" class="headerlink" title="必装"></a>必装</h2><h3 id="iTerm2"><a href="#iTerm2" class="headerlink" title="iTerm2"></a>iTerm2</h3><h3 id="Homebrew"><a href="#Homebrew" class="headerlink" title="Homebrew"></a>Homebrew</h3><h3 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h3><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h2 id="跳转"><a href="#跳转" class="headerlink" title="跳转"></a>跳转</h2><h3 id="z"><a href="#z" class="headerlink" title="z"></a>z</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;如下为我所推荐的 Mac Apps。&lt;/p&gt;
+&lt;h1 id=&quot;效率&quot;&gt;&lt;a href=&quot;#效率&quot; class=&quot;headerlink&quot; title=&quot;效率&quot;&gt;&lt;/a&gt;效率&lt;/h1&gt;&lt;h2 id=&quot;启动&quot;&gt;&lt;a href=&quot;#启动&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://yoursite.com/categories/Mac/"/>
+    
+    
+      <category term="app" scheme="http://yoursite.com/tags/app/"/>
+    
+      <category term="mac" scheme="http://yoursite.com/tags/mac/"/>
+    
+      <category term="recommend" scheme="http://yoursite.com/tags/recommend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在PowerPoint中添加多媒体元素（视频，音频，GIF）</title>
+    <link href="http://yoursite.com/2016/06/09/%E5%9C%A8PowerPoint%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A4%9A%E5%AA%92%E4%BD%93%E5%85%83%E7%B4%A0%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%8C%E9%9F%B3%E9%A2%91%EF%BC%8CGIF%EF%BC%89/"/>
+    <id>http://yoursite.com/2016/06/09/在PowerPoint中添加多媒体元素（视频，音频，GIF）/</id>
+    <published>2016-06-09T14:55:06.000Z</published>
+    <updated>2016-07-23T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>近年来互联网有了长足的发展，由纯文字主导的旧时网页已不多见，多媒体成了人们表达想法的有力途径。越来越多的网站使用高质量的动图或视频来作为首页，甚至添加合适的音乐，来引导人们去了解他们的产品。这带来了明显的效果，可以看一下 Evernote 的官网 <a href="https://www.evernote.com" target="_blank" rel="external">https://www.evernote.com</a>，打开后，背景是一段虚化的视频，介绍了在不同场景下他们的产品 Evernote 笔记软件对于人们生活和工作所产生的帮助和影响。我们已经通过许多设计优良的网页了解了这种多媒体展示方式所带来的好处，但是可惜的是，大部分人在制作自己的 Powerpoint 或者 Keynote 演示文稿时，都未能打破所使用的现代演示软件的传统方式，依然使用大片的文字信息（可能会包含一些静态图片）来试图告诉观众他所想要表达的想法，忽视了真正的多媒体这种高效的表达途径。</p><p><img src="http://zxjsdp1.qiniudn.com/evernote_front_page_demo.jpg" alt="Evernote 首页使用视频展示其产品"></p><p>我们在使用 PowerPoint 等软件做演示或者分享的时候，如果能够在某些需要着重介绍的 slide 中添加些许多媒体元素（例如视频，音频，或者 GIF 动图），将会起到事半功倍的效果，从而将所需要展示的事物以非常清晰明了的方式呈现在听众面前。</p><p>本文将简要介绍如何在使用 Microsoft Office 2016 制作 PPT 的时候，添加和使用多媒体。</p><h2 id="在-Powerpoint-中添加视频"><a href="#在-Powerpoint-中添加视频" class="headerlink" title="在 Powerpoint 中添加视频"></a>在 Powerpoint 中添加视频</h2><p>在使用 Microsoft Office 2016 制作的 PPT 中添加视频文件后，非演示模式效果如下：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_1.jpg" alt="非演示模式下插入的视频效果"></p><p>在演示模式下，效果如图：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_presentation.jpg" alt="演示模式下插入的视频效果"></p><p>在 PPT 中添加视频有三种方式，分别为：</p><h3 id="使用新建的幻灯片中间位置的快捷小部件"><a href="#使用新建的幻灯片中间位置的快捷小部件" class="headerlink" title="使用新建的幻灯片中间位置的快捷小部件"></a>使用新建的幻灯片中间位置的快捷小部件</h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_method_1.png" alt="使用幻灯片中间位置的快捷小部件"></p><h3 id="使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频"><a href="#使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频" class="headerlink" title="使用工具栏：插入 -&gt; 视频 -&gt; 联机视频 或 PC 上的视频"></a>使用工具栏：<code>插入</code> -&gt; <code>视频</code> -&gt; <code>联机视频</code> 或 <code>PC 上的视频</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_method_2.png" alt="使用工具栏选项"></p><h3 id="直接将本地视频文件拖入幻灯片中"><a href="#直接将本地视频文件拖入幻灯片中" class="headerlink" title="直接将本地视频文件拖入幻灯片中"></a>直接将本地视频文件拖入幻灯片中</h3><h2 id="在-Powerpoint-中添加音频"><a href="#在-Powerpoint-中添加音频" class="headerlink" title="在 Powerpoint 中添加音频"></a>在 Powerpoint 中添加音频</h2><p>在使用 Microsoft Office 2016 制作的 PPT 中添加音频文件后，非演示模式效果如下：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_1.png" alt="非演示模式下插入的音频效果"></p><p>在演示模式下，效果如图：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_presentation.png" alt="演示模式下插入的音频效果"></p><p>在 PPT 中添加音频有量种方式，分别为：</p><h3 id="使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频-1"><a href="#使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频-1" class="headerlink" title="使用工具栏：插入 -&gt; 视频 -&gt; 联机视频 或 PC 上的视频"></a>使用工具栏：<code>插入</code> -&gt; <code>视频</code> -&gt; <code>联机视频</code> 或 <code>PC 上的视频</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_method_1.png" alt="使用工具栏选项"></p><h3 id="直接将本地视频文件拖入幻灯片中-1"><a href="#直接将本地视频文件拖入幻灯片中-1" class="headerlink" title="直接将本地视频文件拖入幻灯片中"></a>直接将本地视频文件拖入幻灯片中</h3><h2 id="在-Powerpoint-中添加-GIF-动图"><a href="#在-Powerpoint-中添加-GIF-动图" class="headerlink" title="在 Powerpoint 中添加 GIF 动图"></a>在 Powerpoint 中添加 GIF 动图</h2><p>GIF 动图相对于视频来说，体积更小，在演示模式下可以自动播放。因此在不需要声音或者需要重复播放的场景下，其对于视频拥有一些优势。</p><p>在飞演示模式下，插入的 GIF 图片并不会自动播放，而是类似一张普通的静态图片。但是在演示模式下，就会不断循环放映起来。</p><p>在 PPT 中添加 GIF 动图有三种方式，类似视频的插入，分别为：</p><h3 id="使用新建的幻灯片中间位置的快捷小部件-1"><a href="#使用新建的幻灯片中间位置的快捷小部件-1" class="headerlink" title="使用新建的幻灯片中间位置的快捷小部件"></a>使用新建的幻灯片中间位置的快捷小部件</h3><pre><code>![使用幻灯片中间位置的快捷小部件](http://zxjsdp1.qiniudn.com/ppt_insert_gif_method_1.png)</code></pre><h3 id="使用工具栏：插入-gt-图片-或-联机图片"><a href="#使用工具栏：插入-gt-图片-或-联机图片" class="headerlink" title="使用工具栏：插入 -&gt; 图片 或 联机图片"></a>使用工具栏：<code>插入</code> -&gt; <code>图片</code> 或 <code>联机图片</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_gif_method_2.png" alt="使用工具栏选项"></p><h3 id="直接将本地GIF图片文件拖入幻灯片中"><a href="#直接将本地GIF图片文件拖入幻灯片中" class="headerlink" title="直接将本地GIF图片文件拖入幻灯片中"></a>直接将本地GIF图片文件拖入幻灯片中</h3><h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>目前，使用 Web 技术（HTML，CSS，JavaScript）来制作演示文稿的方式逐渐流行起来，也出现了许多相应的框架和工具，例如 <a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">nodePPT</a>，这为制作更为现代的演示文稿提供了更多的可能性，一些人甚至在基于 HTML 的演示文稿中嵌入了编译器，可以即时编译代码并展示结果（例如视频 <a href="https://www.youtube.com/watch?v=f6kdp27TYZs" target="_blank" rel="external">Google I/O 2012 - Go Concurrency Patterns</a> ）。</p><p>希望未来传统的演示文稿软件也能通过某些方式支持当代 Web 技术，或者提供类似的体验，否则当成熟的基于 Web 技术的演示文稿工具能够提供类似传统演示文稿软件的制作成本和使用体验时，传统的演示文稿至少将在某些领域开始逐渐失去其市场。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h2&gt;&lt;p&gt;近年来互联网有了长足的发展，由纯文字主导的旧时网页已不多见，多媒体成了人们表达想法的有力途径。越来越多的网站使用高质量的动图
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="powerpoint" scheme="http://yoursite.com/tags/powerpoint/"/>
+    
+      <category term="video" scheme="http://yoursite.com/tags/video/"/>
+    
+      <category term="audio" scheme="http://yoursite.com/tags/audio/"/>
+    
+      <category term="multimedia" scheme="http://yoursite.com/tags/multimedia/"/>
+    
+      <category term="gif" scheme="http://yoursite.com/tags/gif/"/>
+    
+      <category term="ppt" scheme="http://yoursite.com/tags/ppt/"/>
+    
+      <category term="office" scheme="http://yoursite.com/tags/office/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Window 及 Mac OS X 下使用 aria2，webui-aria2，或 Aria2GUI 下载百度云资源</title>
+    <link href="http://yoursite.com/2016/06/05/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8aria2%E5%8F%8Awebui-aria2%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E4%BA%91%E8%B5%84%E6%BA%90/"/>
+    <id>http://yoursite.com/2016/06/05/如何使用aria2及webui-aria2下载百度云资源/</id>
+    <published>2016-06-05T10:21:20.000Z</published>
+    <updated>2016-07-23T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>Aria2 是一个轻量的多协议多源命令行下载工具，支持 HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink 等协议下的下载。aria2 可通过内置的 JSON-RPC 及 XML-RPC interfaces 来进行操作，可通过 web 界面管理下载。</p><blockquote><p>aria2 is a lightweight multi-protocol &amp; multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.</p></blockquote><p>Aria2 项目官网为 <a href="https://aria2.github.io/" target="_blank" rel="external">https://aria2.github.io/</a>。aria2 早期是维护在 <a href="https://sourceforge.net/projects/aria2/" target="_blank" rel="external">sourceforge</a> 上的，但目前已转移至 GitHub：<a href="https://github.com/aria2/aria2" target="_blank" rel="external">https://github.com/aria2/aria2</a>，sourceforge 上提供的下载链接留在较老的版本上。</p><p>下载最新版的 aria2 请访问 aria2 GitHub 的 release 页面：<a href="https://github.com/aria2/aria2/releases" target="_blank" rel="external">https://github.com/aria2/aria2/releases</a>。</p><h2 id="命令行模式及配置文件"><a href="#命令行模式及配置文件" class="headerlink" title="命令行模式及配置文件"></a>命令行模式及配置文件</h2><p>Aria2 有两种下载模式，一种是命令行下载模式，一种是 RPC Server 模式。建议使用 RPC Server 模式，同时配合 webui 来管理和使用。</p><p>更详细的配置选项等可以参考官方 <a href="https://aria2.github.io/manual/en/html/index.html" target="_blank" rel="external">Aria2 Manual</a>。</p><h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><p>建议使用配置文件的方式管理配置（可以添加 <code>-D</code> 选项以后台运行）：</p><pre><code>aria2c --conf-path=aria2.conf</code></pre><h3 id="命令行模式"><a href="#命令行模式" class="headerlink" title="命令行模式"></a>命令行模式</h3><p>我们可以在命令行中非常简单地调用 aria2 进行多种协议的下载操作。例如：</p><p>下载网络文件：</p><pre><code>$ aria2c http://example.org/mylinux.iso</code></pre><p>下载多个文件：</p><pre><code>$ aria2c http://a/f.iso ftp://b/f.iso</code></pre><p>下载时每个host使用两个连接：</p><pre><code>$ aria2c -x2 http://a/f.iso</code></pre><p>使用 BitTorrent 协议下载：</p><pre><code>$ aria2c http://example.org/mylinux.torrent</code></pre><p>使用磁力链接（Magnet URI）进行下载：</p><pre><code>$ aria2c &apos;magnet:?xt=urn:btih:248D0A1CD08284299DE78D5C1ED359BB46717D8C&apos;</code></pre><p>Metalink：</p><pre><code>$ aria2c http://example.org/mylinux.metalink</code></pre><p>下载 text 文本文件中的链接：</p><pre><code>$ aria2c -i uris.txt</code></pre><h2 id="Windows-下-aria2-的使用方式"><a href="#Windows-下-aria2-的使用方式" class="headerlink" title="Windows 下 aria2 的使用方式"></a>Windows 下 aria2 的使用方式</h2><h3 id="下载-aria2"><a href="#下载-aria2" class="headerlink" title="下载 aria2"></a>下载 aria2</h3><p>访问 aria2 的 <a href="https://github.com/aria2/aria2/releases" target="_blank" rel="external">GitHub release 页面</a>，下拉找到 latest release 的 Downloads 部分，下载 64 位或 32 位的 zip 包：</p><p><img src="http://zxjsdp1.qiniudn.com/aria2_github_latest_release.png" alt="aria2 latest release download"></p><h3 id="配置-aria2"><a href="#配置-aria2" class="headerlink" title="配置 aria2"></a>配置 aria2</h3><p>将 zip 包内的文件解压至本地目录，如 <code>C:\Apps\aria2\</code>，并在此目录下新建 4 个纯文本文件：</p><pre><code>aria2.log         （日志，空文件就行）aria2.session     （下载历史，空文件就行）aria2.conf        （配置文件）HideRunAria2.vbs  （隐藏cmd窗口运行用到的）</code></pre><ol><li><p>aria2.log</p><p> 此文件为 aria2 运行的日志文件。</p></li><li><p>aria2.session</p><p> 此文件用于记录和读取下载历史，保证在断电和重启时下载任务不会丢失。如果有时aria2不能启动，可以尝试清空此文件中的内容。</p></li><li><p>aria2.conf</p><p> 此文件为 aria2 的配置文件。</p><p> 配置文件中，需要根据当前存放 aria2 的目录的路径，修改若干选项：</p><pre><code># 下载文件保存路径dir=D:\Downloads\aria2\# 日志文件，如果不需要日志，这一行可去掉，如果需要，路径D:\Program Files\aria2\改为你安装aria2的路径log=C:\Apps\aria2\aria2.log# 这两个是记录和读取下载历史用的，断电和重启时保证下载任务不会丢失# 如果有时aria2不能启动，清空这里面的内容就行了，路径D:\Program Files\aria2\改为你安装aria2的路径input-file=C:\Apps\aria2\aria2.sessionsave-session=C:\Apps\aria2\aria2.session</code></pre><p> 若没有定制需要，其他选项可使用如下实例配置：</p><pre><code>dir=D:\Downloads\aria2\log=C:\Apps\aria2\aria2.loginput-file=C:\Apps\aria2\aria2.sessionsave-session=C:\Apps\aria2\aria2.sessionsave-session-interval=60force-save=truelog-level=error# see --split optionmax-concurrent-downloads=5continue=truemax-overall-download-limit=0max-overall-upload-limit=50Kmax-upload-limit=20# Http/FTP optionsconnect-timeout=120lowest-speed-limit=10Kmax-connection-per-server=10max-file-not-found=2min-split-size=1Msplit=5check-certificate=falsehttp-no-cache=true# FTP Specific Options# BT/PT Settingbt-enable-lpd=true#bt-max-peers=55follow-torrent=trueenable-dht6=falsebt-seed-unverifiedrpc-save-upload-metadata=truebt-hash-check-seedbt-remove-unselected-filebt-request-peer-speed-limit=100Kseed-ratio=0.0# Metalink Specific Options# RPC Optionsenable-rpc=truepause=falserpc-allow-origin-all=truerpc-listen-all=truerpc-save-upload-metadata=truerpc-secure=false# Advanced Optionsdaemon=truedisable-ipv6=trueenable-mmap=truefile-allocation=fallocmax-download-result=120#no-file-allocation-limit=32Mforce-sequential=trueparameterized-uri=true</code></pre><p> 若需要指定其他选项，例如 <code>rpc-user</code> 及 <code>rpc-passwd</code> 等，可参考其他的配置文件，例如：<a href="https://blog.icehoney.me/posts/2015-01-31-Aria2-download" target="_blank" rel="external">使用Aria2下载百度网盘和115的资源</a>。</p></li><li><p>HideRunAria2.vbs</p><p> 此 vbs 脚本用于无 cmd 窗口运行 aria2c。可点击此文件直接后台启动 aria2 并加载配置，无需每次输入 <code>aria2 --conf-path=aria2.conf</code>。</p><p> 使用文本编辑器打开此文件，编辑内容如下：</p><pre><code>CreateObject(&quot;WScript.Shell&quot;).Run &quot;C:\Apps\aria2\aria2c.exe --conf-path=aria2.conf&quot;,0</code></pre><p> 其中，<code>C:\Apps\aria2\aria2c.exe</code> 应替换为你的 aria2c.exe 绝对路径。</p><p> 若需要开机启动，可将 HideRunAria2.vbs 的快捷方式放置于：<code>C:\Users\用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code>。</p></li></ol><h3 id="使用-webui-下载管理界面管理下载的内容"><a href="#使用-webui-下载管理界面管理下载的内容" class="headerlink" title="使用 webui 下载管理界面管理下载的内容"></a>使用 webui 下载管理界面管理下载的内容</h3><p>我们可以使用 webui-aria2 来通过 RPC 方式管理下载内容。 <a href="https://github.com/ziahamza/webui-aria2" target="_blank" rel="external">webui-aria2</a> 项目主页为：<a href="https://github.com/ziahamza/webui-aria2" target="_blank" rel="external">https://github.com/ziahamza/webui-aria2</a>。</p><p>在 Windows 下有两种使用方式：</p><ul><li>访问 <a href="http://ziahamza.github.io/webui-aria2/" target="_blank" rel="external">http://ziahamza.github.io/webui-aria2/</a>。若本地已成功运行 aria2，则可以直接使用。</li><li>访问 <a href="http://ziahamza.github.io/webui-aria2/" target="_blank" rel="external">webui-aria2 项目 GitHub 页面</a>，clone 至本地，使用浏览器打开 index.html。</li></ul><h3 id="如何使用-aria2-下载百度云链接"><a href="#如何使用-aria2-下载百度云链接" class="headerlink" title="如何使用 aria2 下载百度云链接"></a>如何使用 aria2 下载百度云链接</h3><p>推荐使用 <a href="https://github.com/acgotaku/BaiduExporter" target="_blank" rel="external">BaiduExporter</a> ，可将百度网盘的下载地址导出到 aria2/aria2-rpc，支持 YAAW。BaiduExporter 支持：</p><ul><li>Chrome（<a href="https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhbaiedbkno" target="_blank" rel="external">BaiduExporter for Chrome</a>）</li><li>Firefox（<a href="https://addons.mozilla.org/zh-CN/firefox/addon/baiduexporter" target="_blank" rel="external">BaiduExporter@Addons page</a>, <a href="https://raw.githubusercontent.com/acgotaku/BaiduExporter/master/firefox/BaiduExporter.xpi" target="_blank" rel="external">BaiduExporter.xpi 文件</a>）</li><li>Safari（<a href="https://raw.githubusercontent.com/acgotaku/BaiduExporter/master/safari/BaiduExporter.safariextz" target="_blank" rel="external">BaiduExporter forSafari</a>）</li></ul><h3 id="下载迅雷离线等内容"><a href="#下载迅雷离线等内容" class="headerlink" title="下载迅雷离线等内容"></a>下载迅雷离线等内容</h3><p>可以尝试在 <a href="https://greasyfork.org/" target="_blank" rel="external">Greasy Fork</a> 及 <a href="https://gist.github.com/" target="_blank" rel="external">Gist</a> 等处寻找其他 yaaw 下载的脚本。例如：<a href="https://greasyfork.org/zh-CN/scripts/5376-thunderlixianexporter" target="_blank" rel="external">ThunderLixianExporter</a> 等。</p><h2 id="Mac-OS-X-下-aria2-的使用方式"><a href="#Mac-OS-X-下-aria2-的使用方式" class="headerlink" title="Mac OS X 下 aria2 的使用方式"></a>Mac OS X 下 aria2 的使用方式</h2><h3 id="使用-Aria2GUI"><a href="#使用-Aria2GUI" class="headerlink" title="使用 Aria2GUI"></a>使用 Aria2GUI</h3><p>在 Mac OS X 下，有一个非常不错的 Aria2 用户界面项目 <a href="https://github.com/yangshun1029/aria2gui" target="_blank" rel="external">Aria2GUI</a>，GitHub 链接为：<a href="https://github.com/yangshun1029/aria2gui" target="_blank" rel="external">https://github.com/yangshun1029/aria2gui</a>。Aria2GUI 自身集成了 aria2，在下载 dmg 文件并安装后，即可使用，无需进行其他繁琐的配置。并且支持多线程。</p><p>Aria2GUI 可以与已经配置好的 aria2 共存。</p><p>Aria2GUI 的最新 release 版本请到 GitHub 的 release 页面下载：<a href="https://github.com/yangshun1029/aria2gui/releases" target="_blank" rel="external">https://github.com/yangshun1029/aria2gui/releases</a>。</p><p><img src="http://zxjsdp1.qiniudn.com/Aria2GUI_screenshot.png" alt="Aria2GUI Screenshot"></p><h3 id="Aria2GUI-配置"><a href="#Aria2GUI-配置" class="headerlink" title="Aria2GUI 配置"></a>Aria2GUI 配置</h3><p>Aria2GUI 的用户界面中可供修改的选项比较少，例如需求比较大的修改下载路径。</p><p>在 Aria2GUI 1.2.4 版本以后，可以通过修改如下文件来自定义 aria2 下载选项：</p><pre><code>/Users/用户名/Library/Application\ Support/com.Aria2GUI/sh/Aria2GUI.sh/Users/用户名/Library/Application\ Support/com.Aria2GUI/sh/startaria.sh</code></pre><p>例如，若要修改下载目录，可以将：<code>--dir=&quot;$HOME/Downloads/&quot;</code> 修改为新的下载路径：<code>--dir=&quot;/absolute/path/for/new/folder/&quot;</code>。其他可供修改的选项例如 session 文件的位置等。</p><h3 id="YAAW-for-Chrome-插件"><a href="#YAAW-for-Chrome-插件" class="headerlink" title="YAAW-for-Chrome 插件"></a>YAAW-for-Chrome 插件</h3><p>使用 <a href="https://github.com/acgotaku/YAAW-for-Chrome" target="_blank" rel="external">YAAW-for-Chrome</a> 插件，可以接管 Chrome 浏览器的下载到 Aria2GUI。YAAW-for-Chrome 的 GitHub 链接为：<a href="https://github.com/acgotaku/YAAW-for-Chrome" target="_blank" rel="external">https://github.com/acgotaku/YAAW-for-Chrome</a>，Chrome store 的安装链接为：<a href="https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc</a>。</p><h3 id="导出百度网盘的资源"><a href="#导出百度网盘的资源" class="headerlink" title="导出百度网盘的资源"></a>导出百度网盘的资源</h3><p>在 Mac OS X 下，下载百度云上的资源体验较差，没有类似 Windows 上百度云管家类似的原生客户端，使用浏览器下载速度非常慢。因此可以安装 <a href="https://github.com/acgotaku/BaiduExporter" target="_blank" rel="external">BaiduExporter</a>，在百度云的下载页面上，将下载链接导出到 Aria2GUI 中下载，将能够得到接近带宽极限的满速体验。</p><h2 id="主要参考链接："><a href="#主要参考链接：" class="headerlink" title="主要参考链接："></a>主要参考链接：</h2><ul><li><a href="https://github.com/aria2/aria2" target="_blank" rel="external">aria2 - aria2/aria2 @ GitHub</a></li><li><a href="https://aria2.github.io/" target="_blank" rel="external">aria2 - The next generation download utility</a></li><li><a href="https://aria2.github.io/manual/en/html/index.html" target="_blank" rel="external">Aria2 Manual</a></li><li><a href="https://github.com/ziahamza/webui-aria2" target="_blank" rel="external">webui-aria2 - ziahamza/webui-aria2 @ GitHub</a></li><li><a href="http://blog.binux.me/2012/12/aria2-examples/" target="_blank" rel="external">aria2配置示例 from Binuxの杂货铺</a></li><li><a href="https://blog.icehoney.me/posts/2015-01-31-Aria2-download" target="_blank" rel="external">使用Aria2下载百度网盘和115的资源 by acgotaku</a></li><li><a href="http://bbs.kafan.cn/thread-1686205-1-1.html" target="_blank" rel="external">用火狐我喜欢用aria2下载，写写windows下教程吧 by jiyuyan</a></li><li><a href="https://github.com/acgotaku/BaiduExporter" target="_blank" rel="external">BaiduExporter - acgotaku/BaiduExporter @ GitHub</a></li><li><a href="https://github.com/yangshun1029/aria2gui" target="_blank" rel="external">Aria2GUI - yangshun1029/aria2gui @ GitHub</a></li><li><a href="https://github.com/acgotaku/YAAW-for-Chrome" target="_blank" rel="external">YAAW-for-Chrome - acgotaku/YAAW-for-Chrome @ GitHub</a></li><li><a href="https://github.com/binux/yaaw" target="_blank" rel="external">yaaw - binux/yaaw @ GitHub</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h2&gt;&lt;p&gt;Aria2 是一个轻量的多协议多源命令行下载工具，支持 HTTP/HTTPS, FTP, SFTP, BitTorrent 
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="download" scheme="http://yoursite.com/tags/download/"/>
+    
+      <category term="aria2" scheme="http://yoursite.com/tags/aria2/"/>
+    
+      <category term="webui-aria2" scheme="http://yoursite.com/tags/webui-aria2/"/>
+    
+      <category term="baiduyun" scheme="http://yoursite.com/tags/baiduyun/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Illustrator中如何插入上标或下标</title>
+    <link href="http://yoursite.com/2016/06/03/Illustrator%E4%B8%AD%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E4%B8%8A%E6%A0%87%E6%88%96%E4%B8%8B%E6%A0%87/"/>
+    <id>http://yoursite.com/2016/06/03/Illustrator中如何插入上标或下标/</id>
+    <published>2016-06-03T15:36:27.000Z</published>
+    <updated>2016-07-23T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由于论文写作需要，在使用 Illustrator 作图的时候，题注或者表注经常需要插入上标（superscript）或者下标（subscript）。但是在 Illustrator 中上标或者下标的插入并没有在主界面上，因此难以发现。</p><p><img src="http://zxjsdp1.qiniudn.com/illustrator_subscript_superscript.png" alt="Illustrator subscript &amp; superscript"></p><h2 id="插入步骤"><a href="#插入步骤" class="headerlink" title="插入步骤"></a>插入步骤</h2><ol><li><p>选中需要插入为上标或者下标的文字；</p></li><li><p>点击选项栏字体工具处的<code>字符</code>按钮；</p></li><li><p>在弹出的窗口中点击上标或者下标的按钮。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;由于论文写作需要，在使用 Illustrator 作图的时候，题注或者表注经常需要插入上标（superscript）或者下标（subscri
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="illustrator" scheme="http://yoursite.com/tags/illustrator/"/>
+    
+      <category term="subscript" scheme="http://yoursite.com/tags/subscript/"/>
+    
+      <category term="superscript" scheme="http://yoursite.com/tags/superscript/"/>
+    
+      <category term="adobe" scheme="http://yoursite.com/tags/adobe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用七牛云存储作为Blog的高速图床：qiniu4blog</title>
+    <link href="http://yoursite.com/2016/06/01/%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E5%AD%98%E5%82%A8%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%9Aqiniu4blog/"/>
+    <id>http://yoursite.com/2016/06/01/使用七牛云存储创建自己的图床：qiniu4blog/</id>
+    <published>2016-06-01T15:00:50.000Z</published>
+    <updated>2016-06-03T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="qiniu4blog-介绍"><a href="#qiniu4blog-介绍" class="headerlink" title="qiniu4blog 介绍"></a>qiniu4blog 介绍</h2><p>qiniu4blog 是一个使用 Python 实现的 library，方便快速上传本地图片到七牛云并生成外链地址。项目 GitHub 地址为： <a href="https://github.com/wzyuliyang/qiniu4blog" target="_blank" rel="external">https://github.com/wzyuliyang/qiniu4blog</a>，主页地址：<a href="http://wzyuliyang.github.io/qiniu4blog/" target="_blank" rel="external">http://wzyuliyang.github.io/qiniu4blog/</a>。</p><p><img src="http://zxjsdp1.qiniudn.com/qiniu4blog_screenshot.png" alt="qiniu4blog"></p><h2 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h2><ol><li><p>安装 qiniu4blog:</p><pre><code>pip install qiniu4blog# Orpip install --user qiniu4blog</code></pre></li><li><p>新建同步需要上传到七牛上的图片的文件夹（若不需要监听目录则可跳过这一步）：</p><pre><code>mkdir /Users/username/Pictures/QiNiuPictures</code></pre></li><li><p>在 Home 目录下新建配置文件 qiniu.cfg（例如 <code>/Users/username/qiniu.cfg</code> 或  <code>C:\Users\username\qiniu.cfg</code>）</p><p> bucket, accessKey 和 secreKey 可以从七牛云的相应的账户目录处获得。</p><pre><code>[config]bucket = qiniu_bucket_nameaccessKey = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXsecretKey = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXpath_to_watch = /Users/username/Pictures/QiNiuPictures[custom_url]enable = falseaddr = someuser.qiniudn.com</code></pre></li><li><p>在 terminal 中尝试使用 <code>qiniu4blog</code>。若找不到可执行文件，可能需要将可执行文件所在的目录加到 <code>PATH</code> 中。</p><p> <code>qiniu4blog</code> 的可执行文件在 Mac OSX 下为：</p><pre><code>/Users/username/Library/Python/2.7/bin</code></pre><p> 主要有如下两种使用方式，执行完成后图片外链地址将显示在 terminal 并已复制到剪切板：</p><ul><li><p>方式一，直接指定对应的图片路径：</p><pre><code>$ qiniu4blog /path/to/image.png</code></pre></li><li><p>方式二，监听步骤二中设置的监听目录，即步骤三中 <code>path_to_watch</code> 的路径：</p><pre><code>$ qiniu4blog  # 然后将需要上传的图片拷贝至七牛图片文件夹即可：/Users/username/Pictures/QiNiuPictures</code></pre></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;qiniu4blog-介绍&quot;&gt;&lt;a href=&quot;#qiniu4blog-介绍&quot; class=&quot;headerlink&quot; title=&quot;qiniu4blog 介绍&quot;&gt;&lt;/a&gt;qiniu4blog 介绍&lt;/h2&gt;&lt;p&gt;qiniu4blog 是一个使用 Python 实现
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="image" scheme="http://yoursite.com/tags/image/"/>
+    
+      <category term="qiniu" scheme="http://yoursite.com/tags/qiniu/"/>
+    
+      <category term="qiniu4blog" scheme="http://yoursite.com/tags/qiniu4blog/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 10 更改程序周围光晕颜色</title>
+    <link href="http://yoursite.com/2016/05/31/Windows-10-%E6%9B%B4%E6%94%B9%E7%A8%8B%E5%BA%8F%E5%91%A8%E5%9B%B4%E5%85%89%E6%99%95%E9%A2%9C%E8%89%B2/"/>
+    <id>http://yoursite.com/2016/05/31/Windows-10-更改程序周围光晕颜色/</id>
+    <published>2016-05-31T15:38:36.000Z</published>
+    <updated>2016-06-03T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Metro开始菜单 -&gt; 设置 -&gt; 个性化 -&gt; 颜色 -&gt; 从我的背景自动选择一种颜色（调整为关） -&gt; 选择一种喜欢的颜色</p><p>以下为调为绿色的状态：</p><p><img src="http://zxjsdp1.qiniudn.com/win10-change-boder-color-1.png" alt="win10-change-boder-color-1"></p><p><img src="http://zxjsdp1.qiniudn.com/win10-change-boder-color-2.png" alt="win10-change-boder-color-2"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Metro开始菜单 -&amp;gt; 设置 -&amp;gt; 个性化 -&amp;gt; 颜色 -&amp;gt; 从我的背景自动选择一种颜色（调整为关） -&amp;gt; 选择一种喜欢的颜色&lt;/p&gt;
+&lt;p&gt;以下为调为绿色的状态：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zxjsdp1.qiniud
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="color" scheme="http://yoursite.com/tags/color/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Photoshop如何根据自定义的裁剪尺寸或分辨率进行图片裁剪</title>
+    <link href="http://yoursite.com/2016/05/23/Photoshop%E5%A6%82%E4%BD%95%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E8%A3%81%E5%89%AA%E5%B0%BA%E5%AF%B8%E6%88%96%E5%88%86%E8%BE%A8%E7%8E%87%E8%BF%9B%E8%A1%8C%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA/"/>
+    <id>http://yoursite.com/2016/05/23/Photoshop如何根据自定义的裁剪尺寸或分辨率进行图片裁剪/</id>
+    <published>2016-05-23T14:35:19.000Z</published>
+    <updated>2016-05-28T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在 Photoshop 可以使用裁剪工具（快捷键：<code>C</code>）根据自定义的裁剪比例或裁剪尺寸进行图片的裁剪。</p><p>主要步骤如下：</p><ol><li>从左侧点选裁剪工具（或使用快捷键：<code>C</code>）；</li><li>我们可以依据需求在选项栏输入合适的 <code>宽X高X分辨率</code>；</li><li>可以通过输入单位名称（例如：<code>px</code>）将单位修改为像素，或在输入框中使用右键选择单位；</li><li>根据需求选择分辨率；</li><li>进行裁剪。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在 Photoshop 可以使用裁剪工具（快捷键：&lt;code&gt;C&lt;/code&gt;）根据自定义的裁剪比例或裁剪尺寸进行图片的裁剪。&lt;/p&gt;
+&lt;p&gt;主要步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从左侧点选裁剪工具（或使用快捷键：&lt;code&gt;C&lt;/code&gt;）；&lt;/li&gt;
+&lt;li&gt;我们
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="photoshop" scheme="http://yoursite.com/tags/photoshop/"/>
+    
+      <category term="picture" scheme="http://yoursite.com/tags/picture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>导出 R 中 .rda data 到本地 csv 文件</title>
+    <link href="http://yoursite.com/2015/09/22/%E5%AF%BC%E5%87%BA-R-%E4%B8%AD-rda-data-%E5%88%B0%E6%9C%AC%E5%9C%B0-csv-%E6%96%87%E4%BB%B6/"/>
+    <id>http://yoursite.com/2015/09/22/导出-R-中-rda-data-到本地-csv-文件/</id>
+    <published>2015-09-22T05:22:19.000Z</published>
+    <updated>2015-09-21T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>R包中经常会包含一些经典数据供学习使用，可以使用<code>data(...)</code>的方式直接加载这些数据。但是有时候需要查看这些数据的原始格式，作为使用自己数据时候的格式参考，但是<code>.rda</code>格式又不是纯文本格式，因此将<code>.rda</code>导出到纯文本格式是非常有用的小技巧。</p><p>可以使用如下命令导出<code>.rda</code>到<code>.csv</code>文件：</p><pre>data(data_name, package="package_name")write.table(data_name, "C:/out.csv", sep=",", col.names=TRUE, row.names=FALSE, quote=FALSE, na="*")</pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;R包中经常会包含一些经典数据供学习使用，可以使用&lt;code&gt;data(...)&lt;/code&gt;的方式直接加载这些数据。但是有时候需要查看这些数据的原始格式，作为使用自己数据时候的格式参考，但是&lt;code&gt;.rda&lt;/code&gt;格式又不是纯文本格式，因此将&lt;code&gt;.rda&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="r" scheme="http://yoursite.com/tags/r/"/>
+    
+      <category term="csv" scheme="http://yoursite.com/tags/csv/"/>
+    
+      <category term="export" scheme="http://yoursite.com/tags/export/"/>
+    
+      <category term="rda" scheme="http://yoursite.com/tags/rda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python 在指定范围内获得不重复的随机数列表</title>
+    <link href="http://yoursite.com/2015/09/21/Python-%E5%9C%A8%E6%8C%87%E5%AE%9A%E8%8C%83%E5%9B%B4%E5%86%85%E8%8E%B7%E5%BE%97%E4%B8%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%88%97%E8%A1%A8/"/>
+    <id>http://yoursite.com/2015/09/21/Python-在指定范围内获得不重复的随机数列表/</id>
+    <published>2015-09-20T16:25:16.000Z</published>
+    <updated>2015-09-19T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>以前获得随机数列表都是使用</p><pre>import randomdef get_random():    int(round(random.random() * 100))  # 获取 100 以内的四舍五入整数随机数def get_random_list(num):    return [get_random() for _ in range(num)]  # 获取 num 个 100 以内的四舍五入整数随机数</pre><p>后来发现一个更好的方法：</p><pre>import randomrandom_list = random.sample(range(100), 10)  # 获取 10 个 100 以内的随机数。可以使用 int(round(num))获得四舍五入的整数</pre><p>参考资料：</p><ul><li><a href="https://stackoverflow.com/questions/9755538/how-do-i-create-a-list-of-unique-random-numbers" target="_blank" rel="external">how do i create a LIST of unique random numbers?</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以前获得随机数列表都是使用&lt;/p&gt;
+&lt;pre&gt;
+import random
+
+def get_random():
+    int(round(random.random() * 100))  # 获取 100 以内的四舍五入整数随机数
+
+def get_random_lis
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="random" scheme="http://yoursite.com/tags/random/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Python 获取两个列表的交集、并集、差集的常用方法</title>
+    <link href="http://yoursite.com/2015/09/19/%E4%BD%BF%E7%94%A8-Python-%E8%8E%B7%E5%8F%96%E4%B8%A4%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E4%BA%A4%E9%9B%86%E3%80%81%E5%B9%B6%E9%9B%86%E3%80%81%E5%B7%AE%E9%9B%86%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2015/09/19/使用-Python-获取两个列表的交集、并集、差集的常用方法/</id>
+    <published>2015-09-19T15:51:53.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在数据处理中经常需要使用 Python 来获取两个列表的交集，并集和差集。在 Python 中实现的方法有很多，我平时只使用一两种我所熟悉的，但效率不一定最高，也不一定最优美，所以这次想把常用的方法都搜集总结一下。</p><p><img src="http://zxjsdp1.qiniudn.com/intersection-union-difference.png" alt="intersection-union-difference"></p><h2 id="交集（Intersection）"><a href="#交集（Intersection）" class="headerlink" title="交集（Intersection）"></a>交集（Intersection）</h2><pre>>>> a = [1, 2, 3, 4, 5, 6]>>> b = [2, 4, 6, 8 ,10]>>> a and b[2, 4, 6]</pre><p>方法一：</p><pre>intersection = list(set(a).intersection(b))</pre><p>方法二：</p><pre>intersection = list(set(a) & set(b))</pre><p>方法三：</p><pre>intersection = [x for x in b if x in set(a)]   # list a is the larger list b</pre><p>方法四：</p><pre>intersection = list((set(a).union(set(b)))^(set(a)^set(b)))</pre><p><strong>注意：如果不考虑顺序并且一定要使用 loop 的话，不要直接使用 List，而应该使用 Set。在 List 中查找元素相对 Set 慢了非常非常多。</strong></p><p>参考资料：</p><ul><li><a href="https://stackoverflow.com/questions/642763/python-intersection-of-two-lists" target="_blank" rel="external">Python - Intersection of two lists</a></li><li><a href="https://stackoverflow.com/questions/3697432/how-to-find-list-intersection" target="_blank" rel="external">How to find list intersection?</a></li><li><a href="http://blog.michelemattioni.me/2015/01/10/list-intersection-in-python-lets-do-it-quickly/" target="_blank" rel="external">List intersection in python: let’s do it quickly</a></li><li><a href="http://segmentfault.com/a/1190000000761405" target="_blank" rel="external">python 求两个list的差集，并集和交集</a></li></ul><h2 id="并集（Union）"><a href="#并集（Union）" class="headerlink" title="并集（Union）"></a>并集（Union）</h2><pre>>>> a = [1, 2, 3, 4, 5, 6]>>> b = [2, 4, 6, 8 ,10]>>> a or b[1, 2, 3, 4, 5, 6, 8, 10]</pre><p>方法一：</p><pre>union = list(set(a) | set(b))</pre><p>方法二：</p><pre>list(set(a).union(set(b)))</pre><p><strong>注意：如果不考虑顺序并且一定要使用 loop 的话，不要直接使用 List，而应该使用 Set。在 List 中查找元素相对 Set 慢了非常非常多。</strong></p><p>参考资料：</p><ul><li><a href="https://stackoverflow.com/questions/19580944/python-set-union-and-set-intersection-operate-differently" target="_blank" rel="external">Python set Union and set Intersection operate differently?</a></li><li><a href="http://www.saltycrane.com/blog/2008/01/how-to-find-intersection-and-union-of/" target="_blank" rel="external">How to find the intersection and union of two lists in Python</a></li><li><a href="http://segmentfault.com/a/1190000000761405" target="_blank" rel="external">python 求两个list的差集，并集和交集</a></li></ul><h2 id="差集（Difference-Set）"><a href="#差集（Difference-Set）" class="headerlink" title="差集（Difference Set）"></a>差集（Difference Set）</h2><pre>>>> a = [1, 2, 3, 4, 5, 6]>>> b = [2, 4, 6, 8 ,10]>>> a or b[1, 2, 3, 4, 5, 6, 8, 10]</pre><p>方法一：</p><pre>difference = list(set(b).difference(set(a)))    # elements in b but not in adifference = list(set(a).difference(set(b)))    # elements in a but not in b</pre><p>方法二：</p><pre>difference = list(set(a_list)^set(b_list))</pre><p>方法三：</p><pre>difference = list(set(a)-set(b))    # elements in b but not in adifference = list(set(a)-set(b))    # elements in a but not in b</pre><p>方法四：</p><pre>difference = [x for x in b if x not in set(a)]    # elements in b but not in adifference = [x for x in b if x not in set(a)]    # elements in a but not in b</pre><p><strong>注意：如果不考虑顺序并且一定要使用 loop 的话，不要直接使用 List，而应该使用 Set。在 List 中查找元素相对 Set 慢了非常非常多。</strong></p><p>参考资料：</p><ul><li><a href="https://stackoverflow.com/questions/3462143/get-difference-between-two-lists" target="_blank" rel="external">Get difference between two lists</a></li><li><a href="https://stackoverflow.com/questions/10005367/retaining-order-while-using-pythons-set-difference" target="_blank" rel="external">Retaining order while using Python’s set difference</a></li><li><a href="http://www.saltycrane.com/blog/2008/01/how-to-find-intersection-and-union-of/" target="_blank" rel="external">How to find the intersection and union of two lists in Python</a></li><li><a href="http://segmentfault.com/a/1190000000761405" target="_blank" rel="external">python 求两个list的差集，并集和交集</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在数据处理中经常需要使用 Python 来获取两个列表的交集，并集和差集。在 Python 中实现的方法有很多，我平时只使用一两种我所熟悉的，但效率不一定最高，也不一定最优美，所以这次想把常用的方法都搜集总结一下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zxjsd
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="intersection" scheme="http://yoursite.com/tags/intersection/"/>
+    
+      <category term="union" scheme="http://yoursite.com/tags/union/"/>
+    
+      <category term="difference" scheme="http://yoursite.com/tags/difference/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更改 Adobe Acrobat DC 的默认光标为手型工具而不是选择工具</title>
+    <link href="http://yoursite.com/2015/09/18/%E6%9B%B4%E6%94%B9-Adobe-Acrobat-DC-%E7%9A%84%E9%BB%98%E8%AE%A4%E5%85%89%E6%A0%87%E4%B8%BA%E6%89%8B%E5%9E%8B%E5%B7%A5%E5%85%B7%E8%80%8C%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%E5%B7%A5%E5%85%B7/"/>
+    <id>http://yoursite.com/2015/09/18/更改-Adobe-Acrobat-DC-的默认光标为手型工具而不是选择工具/</id>
+    <published>2015-09-18T15:21:36.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>当使用 Acrobat 打开 PDF 文档的时候，默认的光标为选择工具。但是大多数情况下，可能我使用 Acrobat 的大部分情况下仅仅是为了阅读，使用手型工具进行页面的拖拽非常方便，因此每次打开 PDF 后都需要手动点击一次手型工具非常麻烦。如何将打开 PDF 后 Acrobat 的默认光标设置为手型工具呢？</p><p><img src="http://zxjsdp1.qiniudn.com/acrobat-hand-tool-0.png" alt="acrobat-hand-tool-0"></p><p>我曾经仅仅这样设置，但是发现没有效果：</p><pre><code>菜单栏  |  编辑  |首选项  | -- 一般        |-- 在“使用手形工具阅读文章”处打勾</code></pre><p><img src="http://zxjsdp1.qiniudn.com/acrobat-hand-tool-1.png" alt="acrobat-hand-tool-1"></p><p>后来发现原来还要进行另外一项设置：</p><pre><code>菜单栏  |  编辑  |首选项  | -- 辅助工具        |-- 将“总是显示键盘选择光标”选项取消打勾（位于其它辅助工具处）</code></pre><p><img src="http://zxjsdp1.qiniudn.com/acrobat-hand-tool-2.png" alt="acrobat-hand-tool-2"></p><p>这样默认的光标就是手型工具啦。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;当使用 Acrobat 打开 PDF 文档的时候，默认的光标为选择工具。但是大多数情况下，可能我使用 Acrobat 的大部分情况下仅仅是为了阅读，使用手型工具进行页面的拖拽非常方便，因此每次打开 PDF 后都需要手动点击一次手型工具非常麻烦。如何将打开 PDF 后 Acr
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="acrobat" scheme="http://yoursite.com/tags/acrobat/"/>
+    
+      <category term="cursor" scheme="http://yoursite.com/tags/cursor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何将任意文件固定在 Win10 的开始屏幕中</title>
+    <link href="http://yoursite.com/2015/09/17/%E5%A6%82%E4%BD%95%E5%B0%86%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%9B%BA%E5%AE%9A%E5%9C%A8-Win10-%E7%9A%84%E5%BC%80%E5%A7%8B%E5%B1%8F%E5%B9%95%E4%B8%AD/"/>
+    <id>http://yoursite.com/2015/09/17/如何将任意文件固定在-Win10-的开始屏幕中/</id>
+    <published>2015-09-17T01:59:59.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>虽然<code>Wox</code>和<code>Launchy</code>是我日常启动程序的主力方式，不过开始屏幕的图标方便归类，这是快速启动工具所不能提供的，因此我也会将最常用的程序在开始屏幕上分类固定。</p><p>最近需要将一个常用的批处理文件(*.bat)固定在开始菜单中。但是发现不论是<code>*.bat</code>文件本身还是这个批处理的快捷方式（*.lnk），右键菜单中都没有<strong>固定到“开始”屏幕</strong>这个选项。那么如何实现将这个批处理固定到开始屏幕中呢？</p><p>其实开始菜单（<code>C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu</code>），开始屏幕中、最常用程序、最近使用的项目（<code>C:\Users\Username\AppData\Roaming\Microsoft\Windows\Recent</code>）、最近访问的位置（<code>C:\Users\Username\Links\RecentPlaces.lnk</code>）等等都是指向保存有许多快捷方式的文件夹的快捷方式。当新安装一个软件后，这个软件将快捷方式复制一份到开始菜单的文件夹中，与其他程序的快捷方式放置在一起，在开始菜单里就会显示出这个新安装的程序了。在开始菜单里显示的快捷方式上点击右键，菜单中是一定有<strong>固定到“开始”屏幕</strong>这个选项的。</p><p>因此可以进入到开始菜单目录（<code>C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu</code>），将批处理文件(*.bat)或者其快捷方式（*.lnk）放置于其中，然后到开始菜单中寻找这个程序，右键选择<strong>固定到“开始”屏幕</strong>。</p><p><img src="http://zxjsdp1.qiniudn.com/pin-lnk-to-start-page.png" alt="pin-lnk-to-start-page"></p><p>另外，<strong>最近使用的项目</strong>与<strong>最近访问的位置</strong>是非常好用的功能，但是被大多数人忽略了（需要将<code>Username</code>替换成你的用户名）。</p><ul><li>最近使用的项目（<code>C:\Users\Username\AppData\Roaming\Microsoft\Windows\Recent</code>）</li><li>最近访问的位置（<code>C:\Users\Username\Links\RecentPlaces.lnk</code>）</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;虽然&lt;code&gt;Wox&lt;/code&gt;和&lt;code&gt;Launchy&lt;/code&gt;是我日常启动程序的主力方式，不过开始屏幕的图标方便归类，这是快速启动工具所不能提供的，因此我也会将最常用的程序在开始屏幕上分类固定。&lt;/p&gt;
+&lt;p&gt;最近需要将一个常用的批处理文件(*.bat)固定
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="windows" scheme="http://yoursite.com/tags/windows/"/>
+    
+      <category term="pin" scheme="http://yoursite.com/tags/pin/"/>
+    
+      <category term="start page" scheme="http://yoursite.com/tags/start-page/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 Ubuntu &quot;ssh: connect to host localhost port 22: Connection refused&quot; 问题</title>
+    <link href="http://yoursite.com/2015/09/16/%E8%A7%A3%E5%86%B3Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/09/16/解决Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-问题/</id>
+    <published>2015-09-16T03:16:18.000Z</published>
+    <updated>2015-09-15T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近 ssh 连不上一台新安装的 Ubuntu，显示错误信息：<code>ssh: connect to host xxx.xxx.xxx.xxx port 22: Connection refused</code>。</p><p>于是在这台 Ubuntu 上尝试<code>ssh localhost</code>，也提供类似的错误信息：<code>ssh: connect to host localhost port 22: Connection refused</code>。</p><p>ssh 无法连接成功的原因可能跟防火墙等因素有关。不过因为这是新系统，因此并没有相关的配置。因此最可能的原因是 ssh 命令没有安装或 daemon 没有启动。使用如下命令即可解决：</p><pre><code>sudo apt-get install openssh-server</code></pre><p>参考资料：</p><ul><li><a href="https://askubuntu.com/questions/403936/ssh-connect-to-host-localhost-port-22-connection-refused" target="_blank" rel="external">ssh: connect to host localhost port 22: Connection refused</a></li><li><a href="https://www.linuxquestions.org/questions/linux-desktop-74/ssh-connect-to-host-localhost-port-22-connection-refused-935331/" target="_blank" rel="external">ssh: connect to host localhost port 22: Connection refused </a></li><li><a href="http://blog.csdn.net/feliciafay/article/details/6561414" target="_blank" rel="external">在ubuntu中配置SSH(解决connect to host localhost port 22: Connection refused问题) </a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近 ssh 连不上一台新安装的 Ubuntu，显示错误信息：&lt;code&gt;ssh: connect to host xxx.xxx.xxx.xxx port 22: Connection refused&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;于是在这台 Ubuntu 上尝试&lt;cod
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+    
+      <category term="ubuntu" scheme="http://yoursite.com/tags/ubuntu/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题</title>
+    <link href="http://yoursite.com/2015/09/15/%E8%A7%A3%E5%86%B3-Win10-%E4%B8%8B-IE-%E5%8F%8A-Firefox-%E4%B8%80%E6%89%93%E5%BC%80%E4%BD%BF%E7%94%A8-Flash-%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B0%B1%E5%8D%A1%E6%AD%BB%E5%B4%A9%E6%BA%83%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/</id>
+    <published>2015-09-15T01:55:16.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位置的，毕竟国内的视频网站大多靠视频播放前的超长广告来赚钱，它们暂时没有意愿去做出有利于用户体验或者纯粹地追求技术进步的行动。</p><p><img src="http://zxjsdp1.qiniudn.com/adobe-flash-player.jpg" alt="adobe-flash-player"></p><p>近期一位同学的电脑（联想 x420s，Intel i7 处理器，仅核心显卡）出现了很奇怪的问题，只要进入含有 Flash 元素的网页，不论是 IE 还是 Firefox（包括新建配置）都会马上卡死，Chrome则不会。尝试了各种方法无果，由于 IE 和 Firefox 均会出现问题，因此可以排除是 Firefox 自己的 Flash Player Plugin 问题。后来想到会不会是因为 Flash 硬件加速造成的。这台电脑近期升级了 Win10，有可能跟之前声卡驱动类似，是因为驱动不完全兼容 Win10。于是在设备管理器中核心显卡上右键<code>更新驱动程序软件</code>，然后选择<code>自动搜索更新的驱动程序软件</code>，系统就自己搜寻适合的显卡驱动并且安装了（为 Win10 的驱动搜索成功率点赞）。更新完成重启，IE 和 Firefox 打开 Flash 网页卡死的现象均消失了。</p><p>如果以后再遇到不正常的情况，根据之前声卡和这次显卡的教训，可能要着重考虑是不是旧驱动对 Win10 的兼容性造成的了。</p><hr><p>Flash 在某个版本后加入了沙箱，虽然是为了增加安全性，但是却非常明显地导致了性能下降和崩溃现象。可以通过某些方法关闭沙箱来改善：</p><ol><li><p>新建纯文本文件，命名为<code>mms.cfg</code>，向里面添加如下内容：</p><pre><code>RTMFPP2PDisable=1SilentAutoUpdateEnable=1AutoUpdateDisable=0ProtectedMode=0</code></pre></li><li><p>根据32位或者64位系统，进入相应的目录，将<code>mms.cfg</code>文件复制到这个目录（可能需要管理员权限）：</p><ul><li>Windows 32位系统：C:\windows\system32\macromed\flash</li><li>Windows 64位系统：C:\windows\syswow64\macromed\flash</li></ul></li></ol><p>这样可以关闭沙箱，并且禁用 Flash 的自动上传。</p><p>针对 Firefox，还有另外一些设置以供参考：</p><ol><li>使用免沙箱版本的 Flash Player（文件名类似于<code>NPSWF32_19_0_0_162.dll</code>，可在<a href="http://bbs.kafan.cn/forum.php?mod=forumdisplay&amp;fid=215&amp;page=1" target="_blank" rel="external">卡饭论坛 Firefox 专区</a>寻找网友维护的提取免沙箱版 Flash 文件），放置于<code>C:\Program Files (x86)\Mozilla Firefox\plugins</code>目录下。</li><li>进入<code>about:addons</code>，点击左侧的<code>插件</code>，在插件列表中寻找<code>Shockwave Flash xx.xx.xx...</code>，点击<code>选项</code>，取消选择<code>开启 Flash 保护模式</code>。</li><li>进入<code>about:config</code>，在搜索栏里输入<code>protected</code>，寻找<code>dom.ipc.plugins.flash.disable-protected-mode</code>，双击将 value 改为<code>true</code>。</li><li>进入<code>about:config</code>，寻找<code>plugin.allow.asyncdrawing</code>和<code>dom.ipc.plugins.asyncInit</code>，将值都改为<code>true</code>。</li></ol><p>另外对于视频花屏卡顿等现象，也有人尝试关闭 Flash 的硬件加速即可缓解。具体方法是在任意 Flash 元素上右键，打开 Flash 选项，取消使用 Flash 硬件加速即可。当然取消硬件加速可能会造成 CPU 使用率增加。</p><p>参考资料：</p><ul><li><a href="bbs.kafan.cn/thread-1781001-1-1.html">视频卡顿，火狐卡蹦？flash官方提供了默认的关闭沙箱简单方法，且一劳永逸。。</a></li><li><a href="http://bbs.kafan.cn/thread-1848863-1-1.html" target="_blank" rel="external">简单粗暴解决flash视频卡顿问题</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Flash 导致巨大的资源占用以及卡顿崩溃等等是一直以来都存在的问题。虽然 YouTube 等国外的主流网站很多都已经开始强制使用 HTML5 来播放视频，Firefox 和 Chrome 等浏览器也逐渐开始禁止播放 Flash 内容，但是在国内 Flash 还是占据主流位
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="firefox" scheme="http://yoursite.com/tags/firefox/"/>
+    
+      <category term="flash" scheme="http://yoursite.com/tags/flash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式</title>
+    <link href="http://yoursite.com/2015/09/13/Vim-%E4%B8%AD-undo-%E6%92%A4%E9%94%80-redo-%E9%87%8D%E5%81%9A-%E7%9A%84%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/</id>
+    <published>2015-09-13T13:22:43.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://zxjsdp1.qiniudn.com/vim-undo-and-redo.png" alt="vim-undo-and-redo"></p><h2 id="Undo-撤销"><a href="#Undo-撤销" class="headerlink" title="Undo (撤销)"></a>Undo (撤销)</h2><p>在 Vim 中，<code>undo</code>(撤销)是最常用的操作之一，可以通过按<code>u</code>实现。如果需要进行多次<code>undo</code>（例如需要退回到3次修改以前），可以按<code>3 u</code>。</p><p>也可以键入<code>:u</code>或者<code>:undo</code>来进行撤销。这样做的缺点是键入一次只能撤销一次，且不如<code>u</code>方便快捷。</p><p>另外<code>U</code>经常被不经意间按到，导致在想要撤销一次更改（<code>u</code>）的时候却发现整行的更改都被撤销了。日常使用中<code>U</code>真正的使用场景相对<code>u</code>来说少很多。</p><h2 id="Redo-重做"><a href="#Redo-重做" class="headerlink" title="Redo (重做)"></a>Redo (重做)</h2><p>当撤销了一次或者几次操作后，发现撤销得多了，就需要<code>redo</code>来恢复。</p><p>可以通过按<code>CTRL-R</code>来进行重做操作。</p><p>当然也可以通过键入<code>:red</code>或者<code>:redo</code>来进行重做。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>当然还有强大的<code>:earlier/:later</code>命令，可以参考<a href="https://stackoverflow.com/questions/1555779/how-do-i-do-redo-i-e-undo-undo-in-vim" target="_blank" rel="external">StackOverFlow的一个回答</a>。</p><blockquote><p>To redo everything you just need to do <code>later 9999999d</code></p><p>(assuming that you first edited the file at most 9999999 days ago), or,<br>if you remember the difference between current undo state and needed one,<br>Use Nh, Nm or Ns for hours, minutes and seconds respectively. + :later N<cr> &lt;=&gt; Ng+ and :later Nf for file writes.</cr></p></blockquote><hr><p>参考资料：</p><ul><li><a href="http://vimdoc.sourceforge.net/htmldoc/undo.html" target="_blank" rel="external">Vim documentation: undo</a></li><li><a href="http://vim.wikia.com/wiki/Undo_and_Redo" target="_blank" rel="external">Undo and Redo</a></li><li><a href="https://stackoverflow.com/questions/1555779/how-do-i-do-redo-i-e-undo-undo-in-vim" target="_blank" rel="external">How do I do redo (i.e. “undo undo”) in Vim?</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://zxjsdp1.qiniudn.com/vim-undo-and-redo.png&quot; alt=&quot;vim-undo-and-redo&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Undo-撤销&quot;&gt;&lt;a href=&quot;#Undo-撤销&quot; class=&quot;heade
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
+    
+      <category term="undo" scheme="http://yoursite.com/tags/undo/"/>
+    
+      <category term="redo" scheme="http://yoursite.com/tags/redo/"/>
+    
+      <category term="shortcuts" scheme="http://yoursite.com/tags/shortcuts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Vagrant 在虚拟机上开发 Flask App 如何在 Host 机上使用浏览器查看</title>
+    <link href="http://yoursite.com/2015/09/13/%E4%BD%BF%E7%94%A8-Vagrant-%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%BC%80%E5%8F%91-Flask-App-%E5%A6%82%E4%BD%95%E5%9C%A8-Host-%E6%9C%BA%E4%B8%8A%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9F%A5%E7%9C%8B/"/>
+    <id>http://yoursite.com/2015/09/13/使用-Vagrant-在虚拟机上开发-Flask-App-如何在-Host-机上使用浏览器查看/</id>
+    <published>2015-09-13T01:23:25.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://zxjsdp1.qiniudn.com/vagrant-flask-app.png" alt="vagrant-flask-app"></p><p>如果需要在 Vagrant 中开发 Flask App，同时使用 Host 机的浏览器进行查看，可以通过如下设置实现：</p><ol><li><p>在<code>Vagrantfile</code>中，添加端口转发：</p><pre><code># Create a forwarded port mapping which allows access to a specific port# within the machine from a port on the host machine. In the example below,# accessing &quot;localhost:8080&quot; will access port 80 on the guest machine.# config.vm.network &quot;forwarded_port&quot;, guest: 80, host: 8080config.vm.network &quot;forwarded_port&quot;, guest: 5000, host: 5000</code></pre></li><li><p>在虚拟机中，创建 Flask App 的时候，修改调用<code>run()</code>的方法使服务器公开可用，让操作系统监听所有公网 IP。</p><pre><code>app.run(host=&apos;0.0.0.0&apos;)</code></pre></li></ol><p>做完这些，使用<code>vagrant reload 虚拟机id</code>来使<code>Vagrantfile</code>的更改生效。再运行 Flask App 的时候，就可以在 Host 机中使用<strong>http:localhost:5000</strong>来访问 Flask App 了。</p><p>参考资料：</p><ul><li><a href="https://stackoverflow.com/questions/29088056/vagrant-flask-app-not-running-on-10-10-10-10-127-0-0-1" target="_blank" rel="external">Vagrant, Flask — App not running on 10.10.10.10, 127.0.0.1</a></li><li><a href="https://stackoverflow.com/questions/23230599/having-problems-accessing-port-5000-in-vagrant" target="_blank" rel="external">Having problems accessing port 5000 in Vagrant</a></li><li><a href="http://docs.jinkan.org/docs/flask/quickstart.html#quickstart" target="_blank" rel="external">快速入门¶</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://zxjsdp1.qiniudn.com/vagrant-flask-app.png&quot; alt=&quot;vagrant-flask-app&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果需要在 Vagrant 中开发 Flask App，同时使用 Host 机的浏览器进行
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="vagrant" scheme="http://yoursite.com/tags/vagrant/"/>
+    
+      <category term="flask" scheme="http://yoursite.com/tags/flask/"/>
+    
+      <category term="app" scheme="http://yoursite.com/tags/app/"/>
+    
+      <category term="web" scheme="http://yoursite.com/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vagrant 通过修改 Vagrantfile 增加 Host 和 VirtualMachine 同步目录</title>
+    <link href="http://yoursite.com/2015/09/12/Vagrant-%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9-Vagrantfile-%E5%A2%9E%E5%8A%A0-Host-%E5%92%8C-VirtualMachine-%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95/"/>
+    <id>http://yoursite.com/2015/09/12/Vagrant-通过修改-Vagrantfile-增加-Host-和-VirtualMachine-同步目录/</id>
+    <published>2015-09-12T13:40:09.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>默认情况下，Vagrantfile 所在的目录与虚拟机中<code>/vagrant/</code>是同步的，对于大部分情况下的文件交换以及修改已经足够方便。</p><p>但是，某些情况下，需要增加另外的目录。例如如果在<code>/vagrant/</code>下使用<code>virtualenv venv</code>来新建 virtualenv，经常会因为权限问题导致无法顺利进行。比较常见的错误信息是<code>OSError: [Errno 71] Protocol error</code>。</p><p><img src="http://zxjsdp1.qiniudn.com/vagrant-virtualenv-error.png" alt="vagrant-virtualenv-error"></p><p>因此可以在<code>/home/vagrant/</code>目录下来使用<code>virtualenv</code>。同时修改<strong>Vagrantfile</strong>，如果想要同步一下两个目录：</p><ol><li>Host 机中的<code>learning</code>目录（即 <strong>Vagrantfile</strong>所在同一目录下新建<code>learning</code>目录）</li><li>虚拟机中的<code>/home/vagrant/learning</code></li></ol><p>应该修改<code>Vagrantfile</code>中如下选项。</p><pre><code># Share an additional folder to the guest VM. The first argument is# the path on the host to the actual folder. The second argument is# the path on the guest to mount the folder. And the optional third# argument is a set of non-required options.config.vm.synced_folder &quot;learning/&quot;, &quot;/home/vagrant/learning&quot;</code></pre><p>修改完成后使用<code>vagrant reload 虚拟机id</code>使更改生效。</p><p>参考资料：</p><ul><li><a href="https://docs.vagrantup.com/v2/synced-folders/basic_usage.html" target="_blank" rel="external">Vagrant Configuration</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;默认情况下，Vagrantfile 所在的目录与虚拟机中&lt;code&gt;/vagrant/&lt;/code&gt;是同步的，对于大部分情况下的文件交换以及修改已经足够方便。&lt;/p&gt;
+&lt;p&gt;但是，某些情况下，需要增加另外的目录。例如如果在&lt;code&gt;/vagrant/&lt;/code&gt;下使用&lt;
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+    
+    
+      <category term="vagrant" scheme="http://yoursite.com/tags/vagrant/"/>
+    
+      <category term="share" scheme="http://yoursite.com/tags/share/"/>
+    
+      <category term="vagrantfile" scheme="http://yoursite.com/tags/vagrantfile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 Python 使用 multiprocessing 模块时 &quot;ImportError: cannot import name Empty&quot;错误</title>
+    <link href="http://yoursite.com/2015/09/11/%E8%A7%A3%E5%86%B3-Python-%E4%BD%BF%E7%94%A8-multiprocessing-%E6%A8%A1%E5%9D%97%E6%97%B6-ImportError-cannot-import-name-Empty-%E9%94%99%E8%AF%AF/"/>
+    <id>http://yoursite.com/2015/09/11/解决-Python-使用-multiprocessing-模块时-ImportError-cannot-import-name-Empty-错误/</id>
+    <published>2015-09-11T01:46:29.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://zxjsdp1.qiniudn.com/python-queue-import-error.png" alt="python-queue-import-error"></p><p>最近在使用 Python 编写一个用到 multiprocessing 的模块时，运行时出现了 <code>ImportError: cannot import name &#39;Empty&#39;</code> 错误。后来想明白了原来是当前文件夹下我自己新增加了一个<code>queue.py</code>的模块，增加这个文件的时候忘记考虑名字的问题，造成了对标准库中相应<code>queue.py</code>的干扰。</p><pre><code>/usr/lib/python2.7/multiprocessing/queues.py</code></pre><p>我的<code>queue.py</code>中并没有实现<code>Empty</code>等类，自然无法顺利导入。将我自己的<code>queue.py</code>改命后问题即可解决。</p><p>以后增加自己的文件时一定要对名字进行慎重考虑，不要干扰到标准库。这样的问题在Python3使用绝对导入的时候应该不会怎么出现了。</p><p>参考链接：</p><ul><li><a href="https://stackoverflow.com/questions/28594311/is-multiprocessing-in-python-3-4-broken" target="_blank" rel="external">https://stackoverflow.com/questions/28594311/is-multiprocessing-in-python-3-4-broken</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://zxjsdp1.qiniudn.com/python-queue-import-error.png&quot; alt=&quot;python-queue-import-error&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最近在使用 Python 编写一个用到 multiproc
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="multiprocessing" scheme="http://yoursite.com/tags/multiprocessing/"/>
+    
+      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Google Chrome 45版本使用 MacType 造成网页部份字体缺失的问题</title>
+    <link href="http://yoursite.com/2015/09/09/%E8%A7%A3%E5%86%B3Google-Chrome-45%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-MacType-%E9%80%A0%E6%88%90%E7%BD%91%E9%A1%B5%E9%83%A8%E4%BB%BD%E5%AD%97%E4%BD%93%E7%BC%BA%E5%A4%B1%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/09/09/解决Google-Chrome-45版本使用-MacType-造成网页部份字体缺失的问题/</id>
+    <published>2015-09-09T08:28:11.000Z</published>
+    <updated>2015-09-08T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在Windows平台上，如果屏幕分辨率较低，则字体发虚。这时可以通过使用MacType可以得到非常不错的字体渲染效果。</p><p>当 Google Chrome 开启 DirectWrite 后，使用 MacType 对 Chrome 的字体进行渲染就经常出现各种问题。比较严重的问题之一是造成网页字体中某些字符的缺失。例如<code>Chrome</code>这个词可能就会显示成<code>C rome</code>。但是字符是存在的，当复制单词到其他地方，可以看到原来缺失的字符正常显示。</p><p>临时的解决办法之一是通过调整网页字体缩放比例，使得字体暂时可以显示。但是不同的缩放比例会有不同的字符无法正常显示。</p><p>在Chrome45版本之前， 可以通过在<code>chrome://flags</code>里面修改相关参数解决这个问题：</p><pre><code>chrome://flags/  #disable-direct-writechrome://flags/  #enable-one-copy</code></pre><p>同时停用硬件加速，并为 Chrome 的快捷方式目标添加启动参数 <code>--disable-directwrite-for-ui</code>。</p><p>从45版本开始，这样的设置下同样会产生缺字的现象。</p><p>在卡饭论坛Chrome专区，有人提出一种解决方案。我修改后目前为止没有再出现缺字的现象(<a href="http://bbs.kafan.cn/thread-1851291-1-1.html" target="_blank" rel="external">45.0.2454.85m (64-bit) 使用 mactype 浏览网页部分文字缺失</a>)：</p><p>具体步骤：</p><ol><li>进入<code>chrome://flags</code>；</li><li>调整<code>#num-raster-threads</code> 为<code>1</code>。</li></ol><p>参考链接：</p><ul><li><a href="http://bbs.kafan.cn/thread-1851291-1-1.html" target="_blank" rel="external">45.0.2454.85m (64-bit) 使用 mactype 浏览网页部分文字缺失</a></li><li><a href="https://www.v2ex.com/t/184034" target="_blank" rel="external">你们的 Chrome 有没有丢失文字的情况</a></li><li><a href="https://www.v2ex.com/t/180832" target="_blank" rel="external">chrome+mactype 的诡异渲染错误</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在Windows平台上，如果屏幕分辨率较低，则字体发虚。这时可以通过使用MacType可以得到非常不错的字体渲染效果。&lt;/p&gt;
+&lt;p&gt;当 Google Chrome 开启 DirectWrite 后，使用 MacType 对 Chrome 的字体进行渲染就经常出现各种问题。
+      
+    
+    </summary>
+    
+      <category term="Chrome" scheme="http://yoursite.com/categories/Chrome/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="chrome" scheme="http://yoursite.com/tags/chrome/"/>
+    
+      <category term="mactype" scheme="http://yoursite.com/tags/mactype/"/>
+    
+      <category term="font" scheme="http://yoursite.com/tags/font/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[转载] 乔布斯在斯坦福大学毕业典礼上的演讲</title>
+    <link href="http://yoursite.com/2015/09/08/%E8%BD%AC%E8%BD%BD-%E4%B9%94%E5%B8%83%E6%96%AF%E5%9C%A8%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC%E4%B8%8A%E7%9A%84%E6%BC%94%E8%AE%B2/"/>
+    <id>http://yoursite.com/2015/09/08/转载-乔布斯在斯坦福大学毕业典礼上的演讲/</id>
+    <published>2015-09-08T15:36:09.000Z</published>
+    <updated>2016-05-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="转载信息："><a href="#转载信息：" class="headerlink" title="转载信息："></a>转载信息：</h2><ul><li>转载自<a href="http://www.ruanyifeng.com/" target="_blank" rel="external">阮一峰</a>的博客：<a href="http://www.ruanyifeng.com/docs/speech/steve_jobs.html" target="_blank" rel="external">乔布斯在斯坦福大学毕业典礼上的演讲</a>。</li><li>视频链接 (YouTube)：<a href="https://www.youtube.com/watch?v=Hd_ptbiPoXM" target="_blank" rel="external">Steve Jobs’ 2005 Stanford Commencement Address</a></li><li>译者：阮一峰</li><li>时间：2005年6月12日</li><li>最后修改时间： 2015-07-13 18:42:55</li></ul><p><img src="http://zxjsdp1.qiniudn.com/jobs_speech_origin.jpg" alt="jobs_speech_origin"></p><p>I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.</p><p>今天，我很荣幸和大家在一起，参加这个世界上最好的大学之一的毕业典礼。我从没有大学毕业。说实话，这是迄今为止我最接近大学毕业的一天。今天我要向你们讲我人生中的三个故事。不是什么大事，只是三个小故事而已。</p><p>The first story is about connecting the dots.</p><p>第一个故事讲的是，把生命中的点连接起来。.</p><p>I dropped out of Reed College after the first 6 months, but then stayed around as a drop-in for another 18 months or so before I really quit. So why did I drop out?</p><p>我在Reed大学读了六个月之后就退学了，但是又在校园里旁听了十八个月左右，然后才真正离开。我为什么要退学呢？</p><p>It started before I was born. My biological mother was a young, unwed college graduate student, and she decided to put me up for adoption. She felt very strongly that I should be adopted by college graduates, so everything was all set for me to be adopted at birth by a lawyer and his wife. Except that when I popped out they decided at the last minute that they really wanted a girl. So my parents, who were on a waiting list, got a call in the middle of the night asking: “We have an unexpected baby boy; do you want him?” They said: “Of course.” My biological mother later found out that my mother had never graduated from college and that my father had never graduated from high school. She refused to sign the final adoption papers. She only relented a few months later when my parents promised that I would someday go to college.</p><p>这要从我出生前讲起，我的生母是一个未婚怀孕的年轻大学生，她决定把肚子里的我送给别人抚养。她强烈希望收养我的家庭具有大学学历，所以在我还没出生的时候，一切都已经安排好了，一个律师和他的妻子收养我。但是意想不到的是，在我来到人世的那一刻，他们突然反悔了，决定只收养女孩。因此，在收养名单上排在后面的我的养父母，半夜接到电话：”我们有一个不在计划之中的男孩，你们想要他吗？”他们回答：”当然。”我的生母后来发现，我的养母没有大学毕业，我的养父没有高中毕业。她拒绝签署最终的收养协议。几个月后，我的养父母承诺送我上大学，她才同意签署协议。</p><p>And 17 years later I did go to college. But I naively chose a college that was almost as expensive as Stanford, and all of my working-class parents’ savings were being spent on my college tuition. After six months, I couldn’t see the value in it. I had no idea what I wanted to do with my life and no idea how college was going to help me figure it out. And here I was spending all of the money my parents had saved their entire life. So I decided to drop out and trust that it would all work out OK. It was pretty scary at the time, but looking back it was one of the best decisions I ever made. The minute I dropped out I could stop taking the required classes that didn’t interest me, and begin dropping in on the ones that looked interesting.</p><p>十七年后，我真的上大学了。但是，我很幼稚地选择了一所几乎与斯坦福大学一样贵的学校。我的养父母都是蓝领阶层，他们的所有积蓄都用来付我的学费。读了六个月以后，我看不到这样做的价值。我不知道自己的人生应该干什么，也不知道大学如何帮我找到答案。而且，如果我在大学里待下去，就会花光我的父母整整一生的积蓄。所以，我就决定退学了，相信这样行得通。那个时候，我确实担心害怕，但是回过头来看，那是我的最佳决策之一。一旦我退学了，就能不上那些我毫无兴趣的必修课，可以开始旁听那些我有兴趣的课了。</p><p>It wasn’t all romantic. I didn’t have a dorm room, so I slept on the floor in friends’ rooms, I returned coke bottles for the 5¢ deposits to buy food with, and I would walk the 7 miles across town every Sunday night to get one good meal a week at the Hare Krishna temple. I loved it. And much of what I stumbled into by following my curiosity and intuition turned out to be priceless later on. Let me give you one example:</p><p>这件事也有艰苦的一面。我没有宿舍了，就睡在朋友家的地板上。退回可乐瓶可以拿到5美分，我把它们积累起来换东西吃。每个星期天晚上，我步行7英里穿过城市，到教会吃一顿免费的丰盛晚餐。但是，我还是心甘情愿。跟着自己的好奇心和直觉走，我误打误撞遇到的许多东西，日后都被证明是无价之宝。我给你们举一个例子。</p><p>Reed College at that time offered perhaps the best calligraphy instruction in the country. Throughout the campus every poster, every label on every drawer, was beautifully hand calligraphed. Because I had dropped out and didn’t have to take the normal classes, I decided to take a calligraphy class to learn how to do this. I learned about serif and san serif typefaces, about varying the amount of space between different letter combinations, about what makes great typography great. It was beautiful, historical, artistically subtle in a way that science can’t capture, and I found it fascinating.</p><p>那时，Reed大学开设可能是全国最好的书法课。校园里的每一张海报、每个抽屉上的每张标签，都是优美的手写体。因为退学后不用上那些常规课程，我决定去上书法课，学习如何写出优美的字。在那里，我学到了衬线字体和无衬线字体，学到了改变不同字母组合之间的间距，学到了版面设计如何才能优美。它是那样的美、富有历史感、艺术的精妙，科学不能捕捉到这些，我发现它太迷人了。</p><p>None of this had even a hope of any practical application in my life. But ten years later, when we were designing the first Macintosh computer, it all came back to me. And we designed it all into the Mac. It was the first computer with beautiful typography. If I had never dropped in on that single course in college, the Mac would have never had multiple typefaces or proportionally spaced fonts. And since Windows just copied the Mac, its likely that no personal computer would have them. If I had never dropped out, I would have never dropped in on this calligraphy class, and personal computers might not have the wonderful typography that they do. Of course it was impossible to connect the dots looking forward when I was in college. But it was very, very clear looking backwards ten years later.</p><p>这些东西，没有一件看上去对我的人生有实际的价值。但是十年后，当我们设计第一台Macintosh电脑的时候，它们都帮到我了。我们把它们都设计进了产品。那是第一台有着优美操作界面的电脑。如果我不曾在大学里旁听那门课，Mac电脑就不会有多种字形，或者按比例间隔的字体。因为后来Windows操作系统抄袭了Mac，那么很可能所有个人电脑都没有它们。如果我没有退学，我就不会旁听书法课，那么个人电脑可能就不会有它们现在的那样漂亮的界面了。当然，我还在大学里展望人生的时候，不可能把这些点都联系起来。但是十年后回头看，它们之间的联系真的是非常非常清楚。</p><p>Again, you can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something – your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.</p><p>再说一遍，你展望人生的时候，不可能把这些点连起来；只有当你回顾人生的时候，才能发现它们之间的联系。所以你必须有信心，相信这些点总会以某种方式，对你的未来产生影响。你必须相信一些事情—-你的勇气、命运、人生、缘分等等。这样做从未令我失望，反而决定了我人生中所有与众不同之处。</p><p>My second story is about love and loss.</p><p>我的第二个故事，是关于爱和损失的。</p><p>I was lucky – I found what I loved to do early in life. Woz and I started Apple in my parents garage when I was 20. We worked hard, and in 10 years Apple had grown from just the two of us in a garage into a $2 billion company with over 4000 employees. We had just released our finest creation – the Macintosh – a year earlier, and I had just turned 30. And then I got fired. How can you get fired from a company you started? Well, as Apple grew we hired someone who I thought was very talented to run the company with me, and for the first year or so things went well. But then our visions of the future began to diverge and eventually we had a falling out. When we did, our Board of Directors sided with him. So at 30 I was out. And very publicly out. What had been the focus of my entire adult life was gone, and it was devastating.</p><p>我很幸运，在人生很早的时候，就找到了热爱的事情。我和沃兹尼亚克在我父母的车库里创立苹果公司的时候，我只有20岁。我们勤奋工作，十年后苹果公司从一个车库里的两人小公司，成长为超过4000个雇员的20亿美元大公司。在那之前一年，我们刚刚发布了最完美的产品—-Macintosh电脑，我也才刚过30岁。但是接下来，我就被解雇了。你怎么可能被一家自己创立的公司解雇呢？事情是这样的，随着公司的发展，我们雇来了一位我眼中的天才，与我一起管理公司。第一年，一切还算顺利。但是那以后，我们对公司发展的看法出现了分歧，最终导致了分裂。最后，董事会站在了他的一边。所以，30岁的那一年，我被解雇了，而且是在众目睽睽之下。我整个成年人生的生活重心，离我远去，真是毁灭性的打击。</p><p>I really didn’t know what to do for a few months. I felt that I had let the previous generation of entrepreneurs down - that I had dropped the baton as it was being passed to me. I met with David Packard and Bob Noyce and tried to apologize for screwing up so badly. I was a very public failure, and I even thought about running away from the valley. But something slowly began to dawn on me – I still loved what I did. The turn of events at Apple had not changed that one bit. I had been rejected, but I was still in love. And so I decided to start over</p><p>最初几个月，我真的不知道干什么。我觉得自己太让人失望，上一代企业家交给我的接力棒，已经被我掉了。我与 David Packard和Bob Noyce见面，试着道歉我把事情搞得这么糟。我的失败被大肆曝光，我甚至想过从硅谷逃走。但是，慢慢地，有一件东西让我看到了曙光—-我依然热爱我做的事情。苹果公司发生的问题，丝毫没有改变这一点。我确实被否决了，但是我仍然热爱这个事业。所以，我决定从头开始。</p><p>I didn’t see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life.</p><p>我当时没有意识到，但是事后证明，被苹果解雇是我一生中经历的最好的事情。成功者的负担，重新被初学者的轻快取代，对任何事情都不是很有把握。它解放了我，让我重新进入又一个人生最具有创造力的时期。</p><p>During the next five years, I started a company named NeXT, another company named Pixar, and fell in love with an amazing woman who would become my wife. Pixar went on to create the worlds first computer animated feature film, Toy Story, and is now the most successful animation studio in the world. In a remarkable turn of events, Apple bought NeXT, I retuned to Apple, and the technology we developed at NeXT is at the heart of Apple’s current renaissance. And Laurene and I have a wonderful family together.</p><p>接下来的五年，我成立了一家叫做NeXT的公司，以及一家叫做Pixar的公司，与一个美妙的女子坠入爱河，然后结为夫妻。Pixar生产出世界上第一部计算机动画电影《玩具故事》，目前是全世界最成功的动画电影工作室。通过一系列事件的奇妙转变，苹果公司收购了NeXT，我又回到了苹果公司。我们在NeXT开发的技术，现在是苹果公司复兴的关键。我还和劳伦妮组建了一个美好的家庭。</p><p>I’m pretty sure none of this would have happened if I hadn’t been fired from Apple. It was awful tasting medicine, but I guess the patient needed it. Sometimes life hits you in the head with a brick. Don’t lose faith. I’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it. And, like any great relationship, it just gets better and better as the years roll on. So keep looking until you find it. Don’t settle.</p><p>我很肯定，如果我不被苹果公司解雇，这一切都不会发生。虽然这个事件的滋味像药物一样苦不堪言，但是我想病人需要服用它。有时，生活会对你迎头一击，这时不要丧失信心。我确信，唯一让我保持前进的动力，就是我热爱自己做的事情。你必须找到你热爱的东西。无论对于公众，还是对于爱人，都是如此。你的工作是你人生的很大一部分，真正令你感到满足的唯一方法，就是去做你心目中的伟大工作。做成伟大工作的唯一方法，就是热爱你自己做的事情。如果你还没有找到这样的事情，那就继续寻找，不要妥协。就像与内心有关的其他事情一样，当你找到的时候，你自己会知道的。并且与所有伟大的感情一样，时间越久，它的情况会变得越来越好。所以，不停地找，直到找到为止，不要妥协。</p><p>My third story is about death.</p><p>我的第三个故事是关于死亡的。</p><p>When I was 17, I read a quote that went something like: “If you live each day as if it was your last, someday you’ll most certainly be right.” It made an impression on me, and since then, for the past 33 years, I have looked in the mirror every morning and asked myself: “If today were the last day of my life, would I want to do what I am about to do today?” And whenever the answer has been “No” for too many days in a row, I know I need to change something.</p><p>十七岁的时候，我读到一句话，大意是这样的：”如果你把每一天都当做生命的最后一天，那么将来你最可能过上正确的生活。”它给我留下了很深的印象，过去33年来，我每天早上看着镜子问自己：”如果今天是人生的最后一天，我会不会愿意去做今天将要做的事情？”无论何时，如果一连好多天，答案都是NO，我就知道需要作出改变了。</p><p>Remembering that I’ll be dead soon is the most important tool I’ve ever encountered to help me make the big choices in life. Because almost everything – all external expectations, all pride, all fear of embarrassment or failure - these things just fall away in the face of death, leaving only what is truly important. Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</p><p>记住自己不久就将死去，这是我发现的最重要的工具，帮助我做出人生中的重大决定。因为几乎所有事情—-外人的期待，内心的骄傲，对于失败或出丑的恐惧—-所有这些事情在死亡面前，都会消失，只留下那些真正重要的事情。记住你将要死，这是我所知道最好方法，免于念念不忘你可能会失去某件东西。你已经赤身裸体了，没有理由不跟随你的内心。</p><p>About a year ago I was diagnosed with cancer. I had a scan at 7:30 in the morning, and it clearly showed a tumor on my pancreas. I didn’t even know what a pancreas was. The doctors told me this was almost certainly a type of cancer that is incurable, and that I should expect to live no longer than three to six months. My doctor advised me to go home and get my affairs in order, which is doctor’s code for prepare to die. It means to try to tell your kids everything you thought you’d have the next 10 years to tell them in just a few months. It means to make sure everything is buttoned up so that it will be as easy as possible for your family. It means to say your goodbyes.</p><p>大概一年前，我被诊断得了癌症。早晨7点半，我做了一次全身扫描，它清楚地显示我的胰脏上有一个肿瘤。我那时甚至都不知道胰脏是什么。医生告诉我，已经可以肯定，那是一种无法治疗的癌症，我的生命预计不超过3到6个月。医生建议我回家把事情安排好，这是医生对于”将要死亡”的表达方式。它意味着，你要试着把你原以为未来10年才对孩子们说的事情，放着几个月里告诉他们。它意味着，你要确定把原件事情都安排好，使得对于你的家人来说，一切变得尽可能的简单。它意味着，你要和一切告别。</p><p>I lived with that diagnosis all day. Later that evening I had a biopsy, where they stuck an endoscope down my throat, through my stomach and into my intestines, put a needle into my pancreas and got a few cells from the tumor. I was sedated, but my wife, who was there, told me that when they viewed the cells under a microscope the doctors started crying because it turned out to be a very rare form of pancreatic cancer that is curable with surgery. I had the surgery and I’m fine now.</p><p>一整天，我无时无刻不想着那个诊断。当天晚上，我做了一个活检，医生将内窥镜塞进我的喉咙，穿过胃，进入肠子，又用一根针刺进胰脏，从肿瘤上得到一些细胞。我很镇定，但是我的妻子（她也在场）告诉我，当医生从显微镜观察那些细胞时，他们开始发出惊叹，因为他们发现那是一种非常罕见的胰腺癌，可以通过手术治愈。我做了手术，现在感觉很好。</p><p>This was the closest I’ve been to facing death, and I hope its the closest I get for a few more decades. Having lived through it, I can now say this to you with a bit more certainty than when death was a useful but purely intellectual concept:</p><p>那是我最接近死亡的时刻，我希望今后几十年都是如此。有了这样的经历，对我来说，死亡就不仅仅是一种纯粹智力上的有用概念，我可以更确定地告诉你们：</p><p>No one wants to die. Even people who want to go to heaven don’t want to die to get there. And yet death is the destination we all share. No one has ever escaped it. And that is as it should be, because Death is very likely the single best invention of Life. It is Life’s change agent. It clears out the old to make way for the new. Right now the new is you, but someday not too long from now, you will gradually become the old and be cleared away. Sorry to be so dramatic, but it is quite true.</p><p>没有人想死，甚至那些渴望升入天堂的人也不想死。但是，死亡是我们所有人都不可避免的人生终点。没有人可以逃脱。事情可能本来就应该如此，因为死亡很可能是生活中最好的单项发明。它是让生活改变的一种手段。它清理旧的一代，为新的一代创造空间。现在你们是新人，但是在并不太遥远的某一天，你们将慢慢成为旧的一代，被清理出去。很抱歉，我不想说得这么戏剧化，但是事实就是如此。</p><p>Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.</p><p>你们的时间有限，所以不要把它浪费在过其他人的生活。不要被教条束缚，那是其他人思考的结果。不要让其他人的意见淹没你自己内心的声音。最重要的是，你要有勇气跟随你的内心和直觉。某种程度上，它们已经知道你真正想要成为什么样子。其他所有事情都是次要的。</p><p>When I was young, there was an amazing publication called The Whole Earth Catalog, which was one of the bibles of my generation. It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch. This was in the late 1960’s, before personal computers and desktop publishing, so it was all made with typewriters, scissors, and polaroid cameras. It was sort of like Google in paperback form, 35 years before Google came along: it was idealistic, and overflowing with neat tools and great notions.</p><p>我年轻的时候，有一本奇妙的出版物，叫做《地球商品目录》（The Whole Earth Catalog），那是我们那一代人的圣经之一。它是由一个叫做Stewart Brand的人，在距离此处不远的Menlo公园创造的。他诗一般地将它带到了人世。那是六十年代末期，个人电脑和桌面出版还没有问世，它是由打字机、剪刀和一次成像照相机做成的。它有点像纸质的Google，不过是在Google诞生35年之前。它充满了理想主义，包含了许多灵巧的工具和伟大的想法。</p><p>Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “Stay Hungry. Stay Foolish.” It was their farewell message as they signed off. Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.</p><p>Stewart和他的团队发行了几期《地球商品目录》，然后他们顺其自然地推出了最后一期。那是70年代中期，我跟你们现在一样大。最后一期的封底，有一幅清晨乡间公路的照片，如果你喜欢冒险，那就是你可能会搭便车旅行的那种道路。在它下面有一行字：”保持饥饿，保持愚蠢”。我总是希望自己可以做到这一点。现在，你们即将毕业，开始新的旅程，我也这样地祝愿你们。</p><p>Stay Hungry. Stay Foolish.</p><p>保持饥饿，保持愚蠢。</p><p>Thank you all very much.</p><p>非常感谢各位。</p><p>（完）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;转载信息：&quot;&gt;&lt;a href=&quot;#转载信息：&quot; class=&quot;headerlink&quot; title=&quot;转载信息：&quot;&gt;&lt;/a&gt;转载信息：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;转载自&lt;a href=&quot;http://www.ruanyifeng.com/&quot; target=&quot;_bla
+      
+    
+    </summary>
+    
+      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+    
+    
+      <category term="Steve Jobs" scheme="http://yoursite.com/tags/Steve-Jobs/"/>
+    
+      <category term="speech" scheme="http://yoursite.com/tags/speech/"/>
+    
+      <category term="talk" scheme="http://yoursite.com/tags/talk/"/>
+    
+      <category term="stanford" scheme="http://yoursite.com/tags/stanford/"/>
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
+  
+</feed>

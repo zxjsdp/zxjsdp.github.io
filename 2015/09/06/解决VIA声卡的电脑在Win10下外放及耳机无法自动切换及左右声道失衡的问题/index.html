@@ -1,0 +1,569 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题 | Jin&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Jin (zxjsdp)">
+    
+
+    
+    <meta name="description" content="升级Win10后，我电脑的声音功能出现了各种问题。主要的两个问题是：  笔记本自带的外放设备和耳机无法自动切换。默认设备是耳机，当插上耳机的时候，可以播放声音（当然还有左右耳机音量大小不同的问题）。但是当拔掉耳机，则不会自动将设备切换到笔记本外放，因此没有声音。需要手动更改设备到扬声器才外放才有声音，但是此时插上耳机就没有声音了。 耳机左右声道不均衡。耳机的左右两侧声音大小不同，有时候左侧明显比">
+<meta name="keywords" content="tips,driver,via">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题">
+<meta property="og:url" content="http://yoursite.com/2015/09/06/解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题/index.html">
+<meta property="og:site_name" content="Jin&#39;s Blog">
+<meta property="og:description" content="升级Win10后，我电脑的声音功能出现了各种问题。主要的两个问题是：  笔记本自带的外放设备和耳机无法自动切换。默认设备是耳机，当插上耳机的时候，可以播放声音（当然还有左右耳机音量大小不同的问题）。但是当拔掉耳机，则不会自动将设备切换到笔记本外放，因此没有声音。需要手动更改设备到扬声器才外放才有声音，但是此时插上耳机就没有声音了。 耳机左右声道不均衡。耳机的左右两侧声音大小不同，有时候左侧明显比">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://zxjsdp1.qiniudn.com/VIA-audio-driver.png">
+<meta property="og:updated_time" content="2016-05-16T16:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题">
+<meta name="twitter:description" content="升级Win10后，我电脑的声音功能出现了各种问题。主要的两个问题是：  笔记本自带的外放设备和耳机无法自动切换。默认设备是耳机，当插上耳机的时候，可以播放声音（当然还有左右耳机音量大小不同的问题）。但是当拔掉耳机，则不会自动将设备切换到笔记本外放，因此没有声音。需要手动更改设备到扬声器才外放才有声音，但是此时插上耳机就没有声音了。 耳机左右声道不均衡。耳机的左右两侧声音大小不同，有时候左侧明显比">
+<meta name="twitter:image" content="http://zxjsdp1.qiniudn.com/VIA-audio-driver.png">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Jin&#39;s Blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Jin&#39;s Blog" title="Jin&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Jin&#39;s Blog">Jin&#39;s Blog</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/09/06/解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题/" title="解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题" itemprop="url">解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Jin (zxjsdp)" target="_blank" itemprop="author">Jin (zxjsdp)</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-06T07:44:30.000Z" itemprop="datePublished"> 发表于 2015-09-06</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			
+		
+		</div>
+		
+		<p><img src="http://zxjsdp1.qiniudn.com/VIA-audio-driver.png" alt="VIA-audio-driver"></p>
+<p>升级Win10后，我电脑的声音功能出现了各种问题。主要的两个问题是：</p>
+<ol>
+<li>笔记本自带的外放设备和耳机无法自动切换。默认设备是耳机，当插上耳机的时候，可以播放声音（当然还有左右耳机音量大小不同的问题）。但是当拔掉耳机，则不会自动将设备切换到笔记本外放，因此没有声音。需要手动更改设备到扬声器才外放才有声音，但是此时插上耳机就没有声音了。</li>
+<li>耳机左右声道不均衡。耳机的左右两侧声音大小不同，有时候左侧明显比右侧大，有时候右侧明显比左侧大。</li>
+</ol>
+<p>刚刚出现问题的时候我怀疑是耳机或者电脑硬件出现了故障。但是经过测试，耳机没有问题，电脑偶尔也会正常，因此大致排除了硬件故障，开始怀疑是软件或者驱动的问题。经过搜索，发现升级 Win10 后别人的使用 VIA 声卡的电脑也出现了类似的问题，因此可以大致判定是驱动不兼容Win10。</p>
+<p>有人通过禁用 VIA High Definition Audio 驱动，使用系统默认的 High Definition Audio 驱动来解决问题，有兴趣的话可以参考<a href="http://www.onlyke.com/html/387.html" target="_blank" rel="external">解决WIN10系统 VIA HD驱动无法自动切换外置音响和耳机的问题</a>。但是 VIA 的声卡驱动还是提供了一些音效增强的，因此最好的方法是通过更新声卡驱动至最新版来解决。</p>
+<p>在VIA官网上找到驱动下载页面：<a href="http://download.viatech.com" target="_blank" rel="external">http://download.viatech.com</a>，分别选择<code>Microsoft Windows</code>，<code>Windows 10 32-bit/64-bit</code>，<code>Audio</code>，<code>VIA HD Audio codec ...</code>，然后进入到下载页面。目前最新的驱动是19-Aug-2015 发布的 <code>V11.10b</code>，文件名为<code>VIAHDAud_v11_1000b_08182015.zip</code>。下载后安装重启即可解决。 </p>
+<p>参考链接：</p>
+<ol>
+<li><a href="http://www.onlyke.com/html/387.html" target="_blank" rel="external">解决WIN10系统 VIA HD驱动无法自动切换外置音响和耳机的问题</a></li>
+<li><a href="http://www.kafan.cn/edu/86518814.html" target="_blank" rel="external">升级Win10系统后没有声音四种解决方案</a></li>
+</ol>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Tips/">Tips</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/tips/">tips</a><a href="/tags/driver/">driver</a><a href="/tags/via/">via</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2015/09/06/解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题/" data-title="解决VIA声卡的电脑在Win10下外放及耳机无法自动切换及左右声道失衡的问题 | Jin&#39;s Blog" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/" title="[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧">
+  <strong>上一篇：</strong><br/>
+  <span>
+  [转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/09/06/hello-world/"  title="Hello World">
+ <strong>下一篇：</strong><br/> 
+ <span>Hello World
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<div class="github-card" data-github="zxjsdp" data-width="100%" data-height="119" data-theme="medium">
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Chrome/" title="Chrome">Chrome<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Life/" title="Life">Life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Mac/" title="Mac">Mac<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Python/" title="Python">Python<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Tips/" title="Tips">Tips<sup>13</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/tips/" title="tips">tips<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/python/" title="python">python<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/win10/" title="win10">win10<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrant/" title="vagrant">vagrant<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/app/" title="app">app<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/error/" title="error">error<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/life/" title="life">life<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/random/" title="random">random<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/subscript/" title="subscript">subscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/share/" title="share">share<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vagrantfile/" title="vagrantfile">vagrantfile<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vim/" title="vim">vim<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/undo/" title="undo">undo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/redo/" title="redo">redo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/shortcuts/" title="shortcuts">shortcuts<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/superscript/" title="superscript">superscript<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/color/" title="color">color<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/intersection/" title="intersection">intersection<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/union/" title="union">union<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://moflying.com" target="_blank" title="我的博客">我的博客</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello，我是一个热爱生活和技术的人. <br/>
+			我在这里分享我学习和成长的足迹.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zxjsdp" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="Jin (zxjsdp)">Jin (zxjsdp)</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
