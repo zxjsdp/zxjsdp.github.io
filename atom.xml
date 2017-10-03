@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://moflying.com/"/>
   <updated>2017-09-13T20:31:01.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://moflying.com/</id>
   
   <author>
     <name>Jin (zxjsdp)</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的 Mac Apps 推荐（待完善）</title>
-    <link href="http://yoursite.com/2017/09/14/%E6%88%91%E7%9A%84-Mac-Apps-%E6%8E%A8%E8%8D%90/"/>
-    <id>http://yoursite.com/2017/09/14/我的-Mac-Apps-推荐/</id>
+    <link href="http://moflying.com/2017/09/14/%E6%88%91%E7%9A%84-Mac-Apps-%E6%8E%A8%E8%8D%90/"/>
+    <id>http://moflying.com/2017/09/14/我的-Mac-Apps-推荐/</id>
     <published>2017-09-13T19:14:39.000Z</published>
     <updated>2017-09-13T20:31:01.000Z</updated>
     
@@ -35,21 +35,21 @@
     
     </summary>
     
-      <category term="Mac" scheme="http://yoursite.com/categories/Mac/"/>
+      <category term="Mac" scheme="http://moflying.com/categories/Mac/"/>
     
     
-      <category term="app" scheme="http://yoursite.com/tags/app/"/>
+      <category term="app" scheme="http://moflying.com/tags/app/"/>
     
-      <category term="mac" scheme="http://yoursite.com/tags/mac/"/>
+      <category term="mac" scheme="http://moflying.com/tags/mac/"/>
     
-      <category term="recommend" scheme="http://yoursite.com/tags/recommend/"/>
+      <category term="recommend" scheme="http://moflying.com/tags/recommend/"/>
     
   </entry>
   
   <entry>
     <title>如何在 Window 及 Mac OS X 下使用 aria2，webui-aria2，或 Aria2GUI 下载百度云资源</title>
-    <link href="http://yoursite.com/2016/06/05/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8aria2%E5%8F%8Awebui-aria2%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E4%BA%91%E8%B5%84%E6%BA%90/"/>
-    <id>http://yoursite.com/2016/06/05/如何使用aria2及webui-aria2下载百度云资源/</id>
+    <link href="http://moflying.com/2016/06/05/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8aria2%E5%8F%8Awebui-aria2%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E4%BA%91%E8%B5%84%E6%BA%90/"/>
+    <id>http://moflying.com/2016/06/05/如何使用aria2及webui-aria2下载百度云资源/</id>
     <published>2016-06-05T10:21:20.000Z</published>
     <updated>2016-07-23T16:00:00.000Z</updated>
     
@@ -64,25 +64,25 @@
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="download" scheme="http://yoursite.com/tags/download/"/>
+      <category term="download" scheme="http://moflying.com/tags/download/"/>
     
-      <category term="aria2" scheme="http://yoursite.com/tags/aria2/"/>
+      <category term="aria2" scheme="http://moflying.com/tags/aria2/"/>
     
-      <category term="webui-aria2" scheme="http://yoursite.com/tags/webui-aria2/"/>
+      <category term="webui-aria2" scheme="http://moflying.com/tags/webui-aria2/"/>
     
-      <category term="baiduyun" scheme="http://yoursite.com/tags/baiduyun/"/>
+      <category term="baiduyun" scheme="http://moflying.com/tags/baiduyun/"/>
     
   </entry>
   
   <entry>
     <title>Illustrator中如何插入上标或下标</title>
-    <link href="http://yoursite.com/2016/06/03/Illustrator%E4%B8%AD%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E4%B8%8A%E6%A0%87%E6%88%96%E4%B8%8B%E6%A0%87/"/>
-    <id>http://yoursite.com/2016/06/03/Illustrator中如何插入上标或下标/</id>
+    <link href="http://moflying.com/2016/06/03/Illustrator%E4%B8%AD%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E4%B8%8A%E6%A0%87%E6%88%96%E4%B8%8B%E6%A0%87/"/>
+    <id>http://moflying.com/2016/06/03/Illustrator中如何插入上标或下标/</id>
     <published>2016-06-03T15:36:27.000Z</published>
     <updated>2016-07-23T16:00:00.000Z</updated>
     
@@ -97,25 +97,25 @@
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="illustrator" scheme="http://yoursite.com/tags/illustrator/"/>
+      <category term="illustrator" scheme="http://moflying.com/tags/illustrator/"/>
     
-      <category term="subscript" scheme="http://yoursite.com/tags/subscript/"/>
+      <category term="subscript" scheme="http://moflying.com/tags/subscript/"/>
     
-      <category term="superscript" scheme="http://yoursite.com/tags/superscript/"/>
+      <category term="superscript" scheme="http://moflying.com/tags/superscript/"/>
     
-      <category term="adobe" scheme="http://yoursite.com/tags/adobe/"/>
+      <category term="adobe" scheme="http://moflying.com/tags/adobe/"/>
     
   </entry>
   
   <entry>
     <title>使用七牛云存储作为Blog的高速图床：qiniu4blog</title>
-    <link href="http://yoursite.com/2016/06/01/%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E5%AD%98%E5%82%A8%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%9Aqiniu4blog/"/>
-    <id>http://yoursite.com/2016/06/01/使用七牛云存储创建自己的图床：qiniu4blog/</id>
+    <link href="http://moflying.com/2016/06/01/%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E5%AD%98%E5%82%A8%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%9Aqiniu4blog/"/>
+    <id>http://moflying.com/2016/06/01/使用七牛云存储创建自己的图床：qiniu4blog/</id>
     <published>2016-06-01T15:00:50.000Z</published>
     <updated>2016-06-03T16:00:00.000Z</updated>
     
@@ -130,25 +130,25 @@
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="image" scheme="http://yoursite.com/tags/image/"/>
+      <category term="image" scheme="http://moflying.com/tags/image/"/>
     
-      <category term="qiniu" scheme="http://yoursite.com/tags/qiniu/"/>
+      <category term="qiniu" scheme="http://moflying.com/tags/qiniu/"/>
     
-      <category term="qiniu4blog" scheme="http://yoursite.com/tags/qiniu4blog/"/>
+      <category term="qiniu4blog" scheme="http://moflying.com/tags/qiniu4blog/"/>
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+      <category term="blog" scheme="http://moflying.com/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>Windows 10 更改程序周围光晕颜色</title>
-    <link href="http://yoursite.com/2016/05/31/Windows-10-%E6%9B%B4%E6%94%B9%E7%A8%8B%E5%BA%8F%E5%91%A8%E5%9B%B4%E5%85%89%E6%99%95%E9%A2%9C%E8%89%B2/"/>
-    <id>http://yoursite.com/2016/05/31/Windows-10-更改程序周围光晕颜色/</id>
+    <link href="http://moflying.com/2016/05/31/Windows-10-%E6%9B%B4%E6%94%B9%E7%A8%8B%E5%BA%8F%E5%91%A8%E5%9B%B4%E5%85%89%E6%99%95%E9%A2%9C%E8%89%B2/"/>
+    <id>http://moflying.com/2016/05/31/Windows-10-更改程序周围光晕颜色/</id>
     <published>2016-05-31T15:38:36.000Z</published>
     <updated>2016-06-03T16:00:00.000Z</updated>
     
@@ -165,21 +165,21 @@
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+      <category term="win10" scheme="http://moflying.com/tags/win10/"/>
     
-      <category term="color" scheme="http://yoursite.com/tags/color/"/>
+      <category term="color" scheme="http://moflying.com/tags/color/"/>
     
   </entry>
   
   <entry>
     <title>Photoshop如何根据自定义的裁剪尺寸或分辨率进行图片裁剪</title>
-    <link href="http://yoursite.com/2016/05/23/Photoshop%E5%A6%82%E4%BD%95%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E8%A3%81%E5%89%AA%E5%B0%BA%E5%AF%B8%E6%88%96%E5%88%86%E8%BE%A8%E7%8E%87%E8%BF%9B%E8%A1%8C%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA/"/>
-    <id>http://yoursite.com/2016/05/23/Photoshop如何根据自定义的裁剪尺寸或分辨率进行图片裁剪/</id>
+    <link href="http://moflying.com/2016/05/23/Photoshop%E5%A6%82%E4%BD%95%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E8%A3%81%E5%89%AA%E5%B0%BA%E5%AF%B8%E6%88%96%E5%88%86%E8%BE%A8%E7%8E%87%E8%BF%9B%E8%A1%8C%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA/"/>
+    <id>http://moflying.com/2016/05/23/Photoshop如何根据自定义的裁剪尺寸或分辨率进行图片裁剪/</id>
     <published>2016-05-23T14:35:19.000Z</published>
     <updated>2016-05-28T16:00:00.000Z</updated>
     
@@ -198,21 +198,21 @@
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="photoshop" scheme="http://yoursite.com/tags/photoshop/"/>
+      <category term="photoshop" scheme="http://moflying.com/tags/photoshop/"/>
     
-      <category term="picture" scheme="http://yoursite.com/tags/picture/"/>
+      <category term="picture" scheme="http://moflying.com/tags/picture/"/>
     
   </entry>
   
   <entry>
     <title>导出 R 中 .rda data 到本地 csv 文件</title>
-    <link href="http://yoursite.com/2015/09/22/%E5%AF%BC%E5%87%BA-R-%E4%B8%AD-rda-data-%E5%88%B0%E6%9C%AC%E5%9C%B0-csv-%E6%96%87%E4%BB%B6/"/>
-    <id>http://yoursite.com/2015/09/22/导出-R-中-rda-data-到本地-csv-文件/</id>
+    <link href="http://moflying.com/2015/09/22/%E5%AF%BC%E5%87%BA-R-%E4%B8%AD-rda-data-%E5%88%B0%E6%9C%AC%E5%9C%B0-csv-%E6%96%87%E4%BB%B6/"/>
+    <id>http://moflying.com/2015/09/22/导出-R-中-rda-data-到本地-csv-文件/</id>
     <published>2015-09-22T05:22:19.000Z</published>
     <updated>2015-09-21T16:00:00.000Z</updated>
     
@@ -228,20 +228,20 @@
     </summary>
     
     
-      <category term="r" scheme="http://yoursite.com/tags/r/"/>
+      <category term="r" scheme="http://moflying.com/tags/r/"/>
     
-      <category term="csv" scheme="http://yoursite.com/tags/csv/"/>
+      <category term="csv" scheme="http://moflying.com/tags/csv/"/>
     
-      <category term="export" scheme="http://yoursite.com/tags/export/"/>
+      <category term="export" scheme="http://moflying.com/tags/export/"/>
     
-      <category term="rda" scheme="http://yoursite.com/tags/rda/"/>
+      <category term="rda" scheme="http://moflying.com/tags/rda/"/>
     
   </entry>
   
   <entry>
     <title>Python 在指定范围内获得不重复的随机数列表</title>
-    <link href="http://yoursite.com/2015/09/21/Python-%E5%9C%A8%E6%8C%87%E5%AE%9A%E8%8C%83%E5%9B%B4%E5%86%85%E8%8E%B7%E5%BE%97%E4%B8%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%88%97%E8%A1%A8/"/>
-    <id>http://yoursite.com/2015/09/21/Python-在指定范围内获得不重复的随机数列表/</id>
+    <link href="http://moflying.com/2015/09/21/Python-%E5%9C%A8%E6%8C%87%E5%AE%9A%E8%8C%83%E5%9B%B4%E5%86%85%E8%8E%B7%E5%BE%97%E4%B8%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%88%97%E8%A1%A8/"/>
+    <id>http://moflying.com/2015/09/21/Python-在指定范围内获得不重复的随机数列表/</id>
     <published>2015-09-20T16:25:16.000Z</published>
     <updated>2015-09-19T16:00:00.000Z</updated>
     
@@ -263,21 +263,21 @@ def get_random_lis
     
     </summary>
     
-      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+      <category term="Python" scheme="http://moflying.com/categories/Python/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://moflying.com/tags/python/"/>
     
-      <category term="random" scheme="http://yoursite.com/tags/random/"/>
+      <category term="random" scheme="http://moflying.com/tags/random/"/>
     
   </entry>
   
   <entry>
     <title>使用 Python 获取两个列表的交集、并集、差集的常用方法</title>
-    <link href="http://yoursite.com/2015/09/19/%E4%BD%BF%E7%94%A8-Python-%E8%8E%B7%E5%8F%96%E4%B8%A4%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E4%BA%A4%E9%9B%86%E3%80%81%E5%B9%B6%E9%9B%86%E3%80%81%E5%B7%AE%E9%9B%86%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
-    <id>http://yoursite.com/2015/09/19/使用-Python-获取两个列表的交集、并集、差集的常用方法/</id>
+    <link href="http://moflying.com/2015/09/19/%E4%BD%BF%E7%94%A8-Python-%E8%8E%B7%E5%8F%96%E4%B8%A4%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E4%BA%A4%E9%9B%86%E3%80%81%E5%B9%B6%E9%9B%86%E3%80%81%E5%B7%AE%E9%9B%86%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://moflying.com/2015/09/19/使用-Python-获取两个列表的交集、并集、差集的常用方法/</id>
     <published>2015-09-19T15:51:53.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -293,23 +293,23 @@ def get_random_lis
     
     </summary>
     
-      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+      <category term="Python" scheme="http://moflying.com/categories/Python/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://moflying.com/tags/python/"/>
     
-      <category term="intersection" scheme="http://yoursite.com/tags/intersection/"/>
+      <category term="intersection" scheme="http://moflying.com/tags/intersection/"/>
     
-      <category term="union" scheme="http://yoursite.com/tags/union/"/>
+      <category term="union" scheme="http://moflying.com/tags/union/"/>
     
-      <category term="difference" scheme="http://yoursite.com/tags/difference/"/>
+      <category term="difference" scheme="http://moflying.com/tags/difference/"/>
     
   </entry>
   
   <entry>
     <title>更改 Adobe Acrobat DC 的默认光标为手型工具而不是选择工具</title>
-    <link href="http://yoursite.com/2015/09/18/%E6%9B%B4%E6%94%B9-Adobe-Acrobat-DC-%E7%9A%84%E9%BB%98%E8%AE%A4%E5%85%89%E6%A0%87%E4%B8%BA%E6%89%8B%E5%9E%8B%E5%B7%A5%E5%85%B7%E8%80%8C%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%E5%B7%A5%E5%85%B7/"/>
-    <id>http://yoursite.com/2015/09/18/更改-Adobe-Acrobat-DC-的默认光标为手型工具而不是选择工具/</id>
+    <link href="http://moflying.com/2015/09/18/%E6%9B%B4%E6%94%B9-Adobe-Acrobat-DC-%E7%9A%84%E9%BB%98%E8%AE%A4%E5%85%89%E6%A0%87%E4%B8%BA%E6%89%8B%E5%9E%8B%E5%B7%A5%E5%85%B7%E8%80%8C%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%E5%B7%A5%E5%85%B7/"/>
+    <id>http://moflying.com/2015/09/18/更改-Adobe-Acrobat-DC-的默认光标为手型工具而不是选择工具/</id>
     <published>2015-09-18T15:21:36.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -324,21 +324,21 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="acrobat" scheme="http://yoursite.com/tags/acrobat/"/>
+      <category term="acrobat" scheme="http://moflying.com/tags/acrobat/"/>
     
-      <category term="cursor" scheme="http://yoursite.com/tags/cursor/"/>
+      <category term="cursor" scheme="http://moflying.com/tags/cursor/"/>
     
   </entry>
   
   <entry>
     <title>如何将任意文件固定在 Win10 的开始屏幕中</title>
-    <link href="http://yoursite.com/2015/09/17/%E5%A6%82%E4%BD%95%E5%B0%86%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%9B%BA%E5%AE%9A%E5%9C%A8-Win10-%E7%9A%84%E5%BC%80%E5%A7%8B%E5%B1%8F%E5%B9%95%E4%B8%AD/"/>
-    <id>http://yoursite.com/2015/09/17/如何将任意文件固定在-Win10-的开始屏幕中/</id>
+    <link href="http://moflying.com/2015/09/17/%E5%A6%82%E4%BD%95%E5%B0%86%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%9B%BA%E5%AE%9A%E5%9C%A8-Win10-%E7%9A%84%E5%BC%80%E5%A7%8B%E5%B1%8F%E5%B9%95%E4%B8%AD/"/>
+    <id>http://moflying.com/2015/09/17/如何将任意文件固定在-Win10-的开始屏幕中/</id>
     <published>2015-09-17T01:59:59.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -354,25 +354,25 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+      <category term="win10" scheme="http://moflying.com/tags/win10/"/>
     
-      <category term="windows" scheme="http://yoursite.com/tags/windows/"/>
+      <category term="windows" scheme="http://moflying.com/tags/windows/"/>
     
-      <category term="pin" scheme="http://yoursite.com/tags/pin/"/>
+      <category term="pin" scheme="http://moflying.com/tags/pin/"/>
     
-      <category term="start page" scheme="http://yoursite.com/tags/start-page/"/>
+      <category term="start page" scheme="http://moflying.com/tags/start-page/"/>
     
   </entry>
   
   <entry>
     <title>解决 Ubuntu &quot;ssh: connect to host localhost port 22: Connection refused&quot; 问题</title>
-    <link href="http://yoursite.com/2015/09/16/%E8%A7%A3%E5%86%B3Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2015/09/16/解决Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-问题/</id>
+    <link href="http://moflying.com/2015/09/16/%E8%A7%A3%E5%86%B3Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-%E9%97%AE%E9%A2%98/"/>
+    <id>http://moflying.com/2015/09/16/解决Ubuntu-ssh-connect-to-host-localhost-port-22-Connection-refused-问题/</id>
     <published>2015-09-16T03:16:18.000Z</published>
     <updated>2015-09-15T16:00:00.000Z</updated>
     
@@ -388,23 +388,23 @@ def get_random_lis
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://moflying.com/categories/Linux/"/>
     
     
-      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+      <category term="error" scheme="http://moflying.com/tags/error/"/>
     
-      <category term="ubuntu" scheme="http://yoursite.com/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://moflying.com/tags/ubuntu/"/>
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="linux" scheme="http://moflying.com/tags/linux/"/>
     
-      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
+      <category term="ssh" scheme="http://moflying.com/tags/ssh/"/>
     
   </entry>
   
   <entry>
     <title>解决 Win10 下 IE 及 Firefox 一打开使用 Flash 的网页就卡死崩溃的问题</title>
-    <link href="http://yoursite.com/2015/09/15/%E8%A7%A3%E5%86%B3-Win10-%E4%B8%8B-IE-%E5%8F%8A-Firefox-%E4%B8%80%E6%89%93%E5%BC%80%E4%BD%BF%E7%94%A8-Flash-%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B0%B1%E5%8D%A1%E6%AD%BB%E5%B4%A9%E6%BA%83%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/</id>
+    <link href="http://moflying.com/2015/09/15/%E8%A7%A3%E5%86%B3-Win10-%E4%B8%8B-IE-%E5%8F%8A-Firefox-%E4%B8%80%E6%89%93%E5%BC%80%E4%BD%BF%E7%94%A8-Flash-%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B0%B1%E5%8D%A1%E6%AD%BB%E5%B4%A9%E6%BA%83%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://moflying.com/2015/09/15/解决-Win10-下-IE-及-Firefox-一打开使用-Flash-的网页就卡死崩溃的问题/</id>
     <published>2015-09-15T01:55:16.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -419,23 +419,23 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+      <category term="win10" scheme="http://moflying.com/tags/win10/"/>
     
-      <category term="firefox" scheme="http://yoursite.com/tags/firefox/"/>
+      <category term="firefox" scheme="http://moflying.com/tags/firefox/"/>
     
-      <category term="flash" scheme="http://yoursite.com/tags/flash/"/>
+      <category term="flash" scheme="http://moflying.com/tags/flash/"/>
     
   </entry>
   
   <entry>
     <title>Vim 中 &quot;undo (撤销)&quot;&quot; &amp; &quot;redo (重做)&quot;&quot; 的几种实现方式</title>
-    <link href="http://yoursite.com/2015/09/13/Vim-%E4%B8%AD-undo-%E6%92%A4%E9%94%80-redo-%E9%87%8D%E5%81%9A-%E7%9A%84%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/"/>
-    <id>http://yoursite.com/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/</id>
+    <link href="http://moflying.com/2015/09/13/Vim-%E4%B8%AD-undo-%E6%92%A4%E9%94%80-redo-%E9%87%8D%E5%81%9A-%E7%9A%84%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/"/>
+    <id>http://moflying.com/2015/09/13/Vim-中-undo-撤销-redo-重做-的几种实现方式/</id>
     <published>2015-09-13T13:22:43.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -451,25 +451,25 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
+      <category term="vim" scheme="http://moflying.com/tags/vim/"/>
     
-      <category term="undo" scheme="http://yoursite.com/tags/undo/"/>
+      <category term="undo" scheme="http://moflying.com/tags/undo/"/>
     
-      <category term="redo" scheme="http://yoursite.com/tags/redo/"/>
+      <category term="redo" scheme="http://moflying.com/tags/redo/"/>
     
-      <category term="shortcuts" scheme="http://yoursite.com/tags/shortcuts/"/>
+      <category term="shortcuts" scheme="http://moflying.com/tags/shortcuts/"/>
     
   </entry>
   
   <entry>
     <title>使用 Vagrant 在虚拟机上开发 Flask App 如何在 Host 机上使用浏览器查看</title>
-    <link href="http://yoursite.com/2015/09/13/%E4%BD%BF%E7%94%A8-Vagrant-%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%BC%80%E5%8F%91-Flask-App-%E5%A6%82%E4%BD%95%E5%9C%A8-Host-%E6%9C%BA%E4%B8%8A%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9F%A5%E7%9C%8B/"/>
-    <id>http://yoursite.com/2015/09/13/使用-Vagrant-在虚拟机上开发-Flask-App-如何在-Host-机上使用浏览器查看/</id>
+    <link href="http://moflying.com/2015/09/13/%E4%BD%BF%E7%94%A8-Vagrant-%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%BC%80%E5%8F%91-Flask-App-%E5%A6%82%E4%BD%95%E5%9C%A8-Host-%E6%9C%BA%E4%B8%8A%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9F%A5%E7%9C%8B/"/>
+    <id>http://moflying.com/2015/09/13/使用-Vagrant-在虚拟机上开发-Flask-App-如何在-Host-机上使用浏览器查看/</id>
     <published>2015-09-13T01:23:25.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -485,23 +485,23 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="vagrant" scheme="http://yoursite.com/tags/vagrant/"/>
+      <category term="vagrant" scheme="http://moflying.com/tags/vagrant/"/>
     
-      <category term="flask" scheme="http://yoursite.com/tags/flask/"/>
+      <category term="flask" scheme="http://moflying.com/tags/flask/"/>
     
-      <category term="app" scheme="http://yoursite.com/tags/app/"/>
+      <category term="app" scheme="http://moflying.com/tags/app/"/>
     
-      <category term="web" scheme="http://yoursite.com/tags/web/"/>
+      <category term="web" scheme="http://moflying.com/tags/web/"/>
     
   </entry>
   
   <entry>
     <title>Vagrant 通过修改 Vagrantfile 增加 Host 和 VirtualMachine 同步目录</title>
-    <link href="http://yoursite.com/2015/09/12/Vagrant-%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9-Vagrantfile-%E5%A2%9E%E5%8A%A0-Host-%E5%92%8C-VirtualMachine-%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95/"/>
-    <id>http://yoursite.com/2015/09/12/Vagrant-通过修改-Vagrantfile-增加-Host-和-VirtualMachine-同步目录/</id>
+    <link href="http://moflying.com/2015/09/12/Vagrant-%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9-Vagrantfile-%E5%A2%9E%E5%8A%A0-Host-%E5%92%8C-VirtualMachine-%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95/"/>
+    <id>http://moflying.com/2015/09/12/Vagrant-通过修改-Vagrantfile-增加-Host-和-VirtualMachine-同步目录/</id>
     <published>2015-09-12T13:40:09.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -517,21 +517,21 @@ def get_random_lis
     
     </summary>
     
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
     
     
-      <category term="vagrant" scheme="http://yoursite.com/tags/vagrant/"/>
+      <category term="vagrant" scheme="http://moflying.com/tags/vagrant/"/>
     
-      <category term="share" scheme="http://yoursite.com/tags/share/"/>
+      <category term="share" scheme="http://moflying.com/tags/share/"/>
     
-      <category term="vagrantfile" scheme="http://yoursite.com/tags/vagrantfile/"/>
+      <category term="vagrantfile" scheme="http://moflying.com/tags/vagrantfile/"/>
     
   </entry>
   
   <entry>
     <title>解决 Python 使用 multiprocessing 模块时 &quot;ImportError: cannot import name Empty&quot;错误</title>
-    <link href="http://yoursite.com/2015/09/11/%E8%A7%A3%E5%86%B3-Python-%E4%BD%BF%E7%94%A8-multiprocessing-%E6%A8%A1%E5%9D%97%E6%97%B6-ImportError-cannot-import-name-Empty-%E9%94%99%E8%AF%AF/"/>
-    <id>http://yoursite.com/2015/09/11/解决-Python-使用-multiprocessing-模块时-ImportError-cannot-import-name-Empty-错误/</id>
+    <link href="http://moflying.com/2015/09/11/%E8%A7%A3%E5%86%B3-Python-%E4%BD%BF%E7%94%A8-multiprocessing-%E6%A8%A1%E5%9D%97%E6%97%B6-ImportError-cannot-import-name-Empty-%E9%94%99%E8%AF%AF/"/>
+    <id>http://moflying.com/2015/09/11/解决-Python-使用-multiprocessing-模块时-ImportError-cannot-import-name-Empty-错误/</id>
     <published>2015-09-11T01:46:29.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -547,21 +547,21 @@ def get_random_lis
     
     </summary>
     
-      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+      <category term="Python" scheme="http://moflying.com/categories/Python/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://moflying.com/tags/python/"/>
     
-      <category term="multiprocessing" scheme="http://yoursite.com/tags/multiprocessing/"/>
+      <category term="multiprocessing" scheme="http://moflying.com/tags/multiprocessing/"/>
     
-      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+      <category term="error" scheme="http://moflying.com/tags/error/"/>
     
   </entry>
   
   <entry>
     <title>解决Google Chrome 45版本使用 MacType 造成网页部份字体缺失的问题</title>
-    <link href="http://yoursite.com/2015/09/09/%E8%A7%A3%E5%86%B3Google-Chrome-45%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-MacType-%E9%80%A0%E6%88%90%E7%BD%91%E9%A1%B5%E9%83%A8%E4%BB%BD%E5%AD%97%E4%BD%93%E7%BC%BA%E5%A4%B1%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2015/09/09/解决Google-Chrome-45版本使用-MacType-造成网页部份字体缺失的问题/</id>
+    <link href="http://moflying.com/2015/09/09/%E8%A7%A3%E5%86%B3Google-Chrome-45%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-MacType-%E9%80%A0%E6%88%90%E7%BD%91%E9%A1%B5%E9%83%A8%E4%BB%BD%E5%AD%97%E4%BD%93%E7%BC%BA%E5%A4%B1%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://moflying.com/2015/09/09/解决Google-Chrome-45版本使用-MacType-造成网页部份字体缺失的问题/</id>
     <published>2015-09-09T08:28:11.000Z</published>
     <updated>2015-09-08T16:00:00.000Z</updated>
     
@@ -577,23 +577,23 @@ def get_random_lis
     
     </summary>
     
-      <category term="Chrome" scheme="http://yoursite.com/categories/Chrome/"/>
+      <category term="Chrome" scheme="http://moflying.com/categories/Chrome/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="chrome" scheme="http://yoursite.com/tags/chrome/"/>
+      <category term="chrome" scheme="http://moflying.com/tags/chrome/"/>
     
-      <category term="mactype" scheme="http://yoursite.com/tags/mactype/"/>
+      <category term="mactype" scheme="http://moflying.com/tags/mactype/"/>
     
-      <category term="font" scheme="http://yoursite.com/tags/font/"/>
+      <category term="font" scheme="http://moflying.com/tags/font/"/>
     
   </entry>
   
   <entry>
     <title>[转载] 乔布斯在斯坦福大学毕业典礼上的演讲</title>
-    <link href="http://yoursite.com/2015/09/08/%E8%BD%AC%E8%BD%BD-%E4%B9%94%E5%B8%83%E6%96%AF%E5%9C%A8%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC%E4%B8%8A%E7%9A%84%E6%BC%94%E8%AE%B2/"/>
-    <id>http://yoursite.com/2015/09/08/转载-乔布斯在斯坦福大学毕业典礼上的演讲/</id>
+    <link href="http://moflying.com/2015/09/08/%E8%BD%AC%E8%BD%BD-%E4%B9%94%E5%B8%83%E6%96%AF%E5%9C%A8%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC%E4%B8%8A%E7%9A%84%E6%BC%94%E8%AE%B2/"/>
+    <id>http://moflying.com/2015/09/08/转载-乔布斯在斯坦福大学毕业典礼上的演讲/</id>
     <published>2015-09-08T15:36:09.000Z</published>
     <updated>2016-05-16T16:00:00.000Z</updated>
     
@@ -609,25 +609,25 @@ def get_random_lis
     
     </summary>
     
-      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+      <category term="Life" scheme="http://moflying.com/categories/Life/"/>
     
     
-      <category term="Steve Jobs" scheme="http://yoursite.com/tags/Steve-Jobs/"/>
+      <category term="Steve Jobs" scheme="http://moflying.com/tags/Steve-Jobs/"/>
     
-      <category term="speech" scheme="http://yoursite.com/tags/speech/"/>
+      <category term="speech" scheme="http://moflying.com/tags/speech/"/>
     
-      <category term="talk" scheme="http://yoursite.com/tags/talk/"/>
+      <category term="talk" scheme="http://moflying.com/tags/talk/"/>
     
-      <category term="stanford" scheme="http://yoursite.com/tags/stanford/"/>
+      <category term="stanford" scheme="http://moflying.com/tags/stanford/"/>
     
-      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+      <category term="life" scheme="http://moflying.com/tags/life/"/>
     
   </entry>
   
   <entry>
     <title>[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧</title>
-    <link href="http://yoursite.com/2015/09/06/%E8%BD%AC%E8%BD%BD-Linux-mkdir%E3%80%81tar-%E5%92%8C-kill-%E5%91%BD%E4%BB%A4%E7%9A%844%E4%B8%AA%E6%9C%89%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>http://yoursite.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/</id>
+    <link href="http://moflying.com/2015/09/06/%E8%BD%AC%E8%BD%BD-Linux-mkdir%E3%80%81tar-%E5%92%8C-kill-%E5%91%BD%E4%BB%A4%E7%9A%844%E4%B8%AA%E6%9C%89%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://moflying.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/</id>
     <published>2015-09-06T12:18:41.000Z</published>
     <updated>2015-09-05T16:00:00.000Z</updated>
     
@@ -642,16 +642,16 @@ def get_random_lis
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://moflying.com/categories/Linux/"/>
     
     
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="linux" scheme="http://moflying.com/tags/linux/"/>
     
-      <category term="skills" scheme="http://yoursite.com/tags/skills/"/>
+      <category term="skills" scheme="http://moflying.com/tags/skills/"/>
     
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+      <category term="command" scheme="http://moflying.com/tags/command/"/>
     
   </entry>
   
