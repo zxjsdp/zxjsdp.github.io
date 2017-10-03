@@ -47,45 +47,6 @@
   </entry>
   
   <entry>
-    <title>在PowerPoint中添加多媒体元素（视频，音频，GIF）</title>
-    <link href="http://yoursite.com/2016/06/09/%E5%9C%A8PowerPoint%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A4%9A%E5%AA%92%E4%BD%93%E5%85%83%E7%B4%A0%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%8C%E9%9F%B3%E9%A2%91%EF%BC%8CGIF%EF%BC%89/"/>
-    <id>http://yoursite.com/2016/06/09/在PowerPoint中添加多媒体元素（视频，音频，GIF）/</id>
-    <published>2016-06-09T14:55:06.000Z</published>
-    <updated>2016-07-23T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>近年来互联网有了长足的发展，由纯文字主导的旧时网页已不多见，多媒体成了人们表达想法的有力途径。越来越多的网站使用高质量的动图或视频来作为首页，甚至添加合适的音乐，来引导人们去了解他们的产品。这带来了明显的效果，可以看一下 Evernote 的官网 <a href="https://www.evernote.com" target="_blank" rel="external">https://www.evernote.com</a>，打开后，背景是一段虚化的视频，介绍了在不同场景下他们的产品 Evernote 笔记软件对于人们生活和工作所产生的帮助和影响。我们已经通过许多设计优良的网页了解了这种多媒体展示方式所带来的好处，但是可惜的是，大部分人在制作自己的 Powerpoint 或者 Keynote 演示文稿时，都未能打破所使用的现代演示软件的传统方式，依然使用大片的文字信息（可能会包含一些静态图片）来试图告诉观众他所想要表达的想法，忽视了真正的多媒体这种高效的表达途径。</p><p><img src="http://zxjsdp1.qiniudn.com/evernote_front_page_demo.jpg" alt="Evernote 首页使用视频展示其产品"></p><p>我们在使用 PowerPoint 等软件做演示或者分享的时候，如果能够在某些需要着重介绍的 slide 中添加些许多媒体元素（例如视频，音频，或者 GIF 动图），将会起到事半功倍的效果，从而将所需要展示的事物以非常清晰明了的方式呈现在听众面前。</p><p>本文将简要介绍如何在使用 Microsoft Office 2016 制作 PPT 的时候，添加和使用多媒体。</p><h2 id="在-Powerpoint-中添加视频"><a href="#在-Powerpoint-中添加视频" class="headerlink" title="在 Powerpoint 中添加视频"></a>在 Powerpoint 中添加视频</h2><p>在使用 Microsoft Office 2016 制作的 PPT 中添加视频文件后，非演示模式效果如下：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_1.jpg" alt="非演示模式下插入的视频效果"></p><p>在演示模式下，效果如图：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_presentation.jpg" alt="演示模式下插入的视频效果"></p><p>在 PPT 中添加视频有三种方式，分别为：</p><h3 id="使用新建的幻灯片中间位置的快捷小部件"><a href="#使用新建的幻灯片中间位置的快捷小部件" class="headerlink" title="使用新建的幻灯片中间位置的快捷小部件"></a>使用新建的幻灯片中间位置的快捷小部件</h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_method_1.png" alt="使用幻灯片中间位置的快捷小部件"></p><h3 id="使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频"><a href="#使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频" class="headerlink" title="使用工具栏：插入 -&gt; 视频 -&gt; 联机视频 或 PC 上的视频"></a>使用工具栏：<code>插入</code> -&gt; <code>视频</code> -&gt; <code>联机视频</code> 或 <code>PC 上的视频</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_video_method_2.png" alt="使用工具栏选项"></p><h3 id="直接将本地视频文件拖入幻灯片中"><a href="#直接将本地视频文件拖入幻灯片中" class="headerlink" title="直接将本地视频文件拖入幻灯片中"></a>直接将本地视频文件拖入幻灯片中</h3><h2 id="在-Powerpoint-中添加音频"><a href="#在-Powerpoint-中添加音频" class="headerlink" title="在 Powerpoint 中添加音频"></a>在 Powerpoint 中添加音频</h2><p>在使用 Microsoft Office 2016 制作的 PPT 中添加音频文件后，非演示模式效果如下：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_1.png" alt="非演示模式下插入的音频效果"></p><p>在演示模式下，效果如图：</p><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_presentation.png" alt="演示模式下插入的音频效果"></p><p>在 PPT 中添加音频有量种方式，分别为：</p><h3 id="使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频-1"><a href="#使用工具栏：插入-gt-视频-gt-联机视频-或-PC-上的视频-1" class="headerlink" title="使用工具栏：插入 -&gt; 视频 -&gt; 联机视频 或 PC 上的视频"></a>使用工具栏：<code>插入</code> -&gt; <code>视频</code> -&gt; <code>联机视频</code> 或 <code>PC 上的视频</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_audio_method_1.png" alt="使用工具栏选项"></p><h3 id="直接将本地视频文件拖入幻灯片中-1"><a href="#直接将本地视频文件拖入幻灯片中-1" class="headerlink" title="直接将本地视频文件拖入幻灯片中"></a>直接将本地视频文件拖入幻灯片中</h3><h2 id="在-Powerpoint-中添加-GIF-动图"><a href="#在-Powerpoint-中添加-GIF-动图" class="headerlink" title="在 Powerpoint 中添加 GIF 动图"></a>在 Powerpoint 中添加 GIF 动图</h2><p>GIF 动图相对于视频来说，体积更小，在演示模式下可以自动播放。因此在不需要声音或者需要重复播放的场景下，其对于视频拥有一些优势。</p><p>在飞演示模式下，插入的 GIF 图片并不会自动播放，而是类似一张普通的静态图片。但是在演示模式下，就会不断循环放映起来。</p><p>在 PPT 中添加 GIF 动图有三种方式，类似视频的插入，分别为：</p><h3 id="使用新建的幻灯片中间位置的快捷小部件-1"><a href="#使用新建的幻灯片中间位置的快捷小部件-1" class="headerlink" title="使用新建的幻灯片中间位置的快捷小部件"></a>使用新建的幻灯片中间位置的快捷小部件</h3><pre><code>![使用幻灯片中间位置的快捷小部件](http://zxjsdp1.qiniudn.com/ppt_insert_gif_method_1.png)</code></pre><h3 id="使用工具栏：插入-gt-图片-或-联机图片"><a href="#使用工具栏：插入-gt-图片-或-联机图片" class="headerlink" title="使用工具栏：插入 -&gt; 图片 或 联机图片"></a>使用工具栏：<code>插入</code> -&gt; <code>图片</code> 或 <code>联机图片</code></h3><p><img src="http://zxjsdp1.qiniudn.com/ppt_insert_gif_method_2.png" alt="使用工具栏选项"></p><h3 id="直接将本地GIF图片文件拖入幻灯片中"><a href="#直接将本地GIF图片文件拖入幻灯片中" class="headerlink" title="直接将本地GIF图片文件拖入幻灯片中"></a>直接将本地GIF图片文件拖入幻灯片中</h3><h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>目前，使用 Web 技术（HTML，CSS，JavaScript）来制作演示文稿的方式逐渐流行起来，也出现了许多相应的框架和工具，例如 <a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">nodePPT</a>，这为制作更为现代的演示文稿提供了更多的可能性，一些人甚至在基于 HTML 的演示文稿中嵌入了编译器，可以即时编译代码并展示结果（例如视频 <a href="https://www.youtube.com/watch?v=f6kdp27TYZs" target="_blank" rel="external">Google I/O 2012 - Go Concurrency Patterns</a> ）。</p><p>希望未来传统的演示文稿软件也能通过某些方式支持当代 Web 技术，或者提供类似的体验，否则当成熟的基于 Web 技术的演示文稿工具能够提供类似传统演示文稿软件的制作成本和使用体验时，传统的演示文稿至少将在某些领域开始逐渐失去其市场。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h2&gt;&lt;p&gt;近年来互联网有了长足的发展，由纯文字主导的旧时网页已不多见，多媒体成了人们表达想法的有力途径。越来越多的网站使用高质量的动图
-      
-    
-    </summary>
-    
-      <category term="Tips" scheme="http://yoursite.com/categories/Tips/"/>
-    
-    
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
-    
-      <category term="powerpoint" scheme="http://yoursite.com/tags/powerpoint/"/>
-    
-      <category term="video" scheme="http://yoursite.com/tags/video/"/>
-    
-      <category term="audio" scheme="http://yoursite.com/tags/audio/"/>
-    
-      <category term="multimedia" scheme="http://yoursite.com/tags/multimedia/"/>
-    
-      <category term="gif" scheme="http://yoursite.com/tags/gif/"/>
-    
-      <category term="ppt" scheme="http://yoursite.com/tags/ppt/"/>
-    
-      <category term="office" scheme="http://yoursite.com/tags/office/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何在 Window 及 Mac OS X 下使用 aria2，webui-aria2，或 Aria2GUI 下载百度云资源</title>
     <link href="http://yoursite.com/2016/06/05/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8aria2%E5%8F%8Awebui-aria2%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E4%BA%91%E8%B5%84%E6%BA%90/"/>
     <id>http://yoursite.com/2016/06/05/如何使用aria2及webui-aria2下载百度云资源/</id>
@@ -660,6 +621,37 @@ def get_random_lis
       <category term="stanford" scheme="http://yoursite.com/tags/stanford/"/>
     
       <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧</title>
+    <link href="http://yoursite.com/2015/09/06/%E8%BD%AC%E8%BD%BD-Linux-mkdir%E3%80%81tar-%E5%92%8C-kill-%E5%91%BD%E4%BB%A4%E7%9A%844%E4%B8%AA%E6%9C%89%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/</id>
+    <published>2015-09-06T12:18:41.000Z</published>
+    <updated>2015-09-05T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="转载信息："><a href="#转载信息：" class="headerlink" title="转载信息："></a>转载信息：</h2><p>转载自<a href="http://www.techug.com" target="_blank" rel="external">程序师网站</a>：<a href="http://www.techug.com/mkdir-tar-and-kill-commands-in-linux" target="_blank" rel="external">Linux mkdir、tar 和 kill 命令的 4 个有用小技巧</a></p><p>英文原文：<a href="http://www.tecmint.com/mkdir-tar-and-kill-commands-in-linux/" target="_blank" rel="external">4 Useful Tips on mkdir, tar and kill Commands in Linux</a></p><h2 id="4个小技巧："><a href="#4个小技巧：" class="headerlink" title="4个小技巧："></a>4个小技巧：</h2><p>我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！</p><p>4 个有用的 Linux 小技巧</p><h3 id="热身："><a href="#热身：" class="headerlink" title="热身："></a>热身：</h3><pre><code>1. $ mkdir -p tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}2. $ cat &lt;&lt; EOF &gt; /home/$USER/Desktop/test   $ ABC   $ DEF   $ GHI   $ JKL   $ MNO   $ PQR   $ STU   $ VWX   $ Y   $ Z   $ EOF3. $ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/4. $ pkill apache2   $ pgrep -l apache2</code></pre><h3 id="技巧说明："><a href="#技巧说明：" class="headerlink" title="技巧说明："></a>技巧说明：</h3><ol><li><p>假设你要创建一个类似于下面很长的/复杂的目录树。实现这最有效的方法是什么呢？</p><p> 类似下面要实现的目录树结构。</p><pre><code>$ cd /home/$USER/Desktop$ mkdir tecmint$ mkdir tecmint/etc$ mkdir tecmint/lib$ mkdir tecmint/usr$ mkdir tecmint/bin$ mkdir tecmint/tmp$ mkdir tecmint/opt$ mkdir tecmint/var$ mkdir tecmint/etc/x1$ mkdir tecmint/usr/x2$ mkdir tecmint/usr/x3$ mkdir tecmint/tmp/Y1$ mkdir tecmint/tmp/Y2$ mkdir tecmint/tmp/Y3$ mkdir tecmint/tmp/Y3/z</code></pre><p> 上述情况可以简单地通过运行下面一行命令来实现。</p><pre><code>$ mkdir -p /home/$USER/Desktop/tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}</code></pre><p> 你可以用 <code>tree</code> 命令验证。如果没有安装你可以使用 <code>apt</code> 或 <code>yum</code> 安装 ‘<code>tree</code>’ 软件包。</p><pre><code>$ tree tecmint</code></pre><p> 检查目录结构</p><p> 我们可以用上面的方式创建任意复杂的目录树结构。注意这仅仅是一个普通的命令，但是用 ‘<code>{}</code>’ 来创建层级目录。需要的时候如果在 shell 脚本中使用是非常有用的。</p></li><li><p>在桌面（<code>/home/$USER/Desktop</code>）创建一个文件（例如 <code>test</code>）并填入以下内容。</p><pre><code>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code></pre><p> 这种情况一个普通用户会怎么做呢？</p><p> a. 他首先会创建文件，最好使用 <code>touch</code> 命令，例如：</p><pre><code>$ touch /home/$USER/Desktop/test</code></pre><p> b. 他会用一个文本编辑器打开文件，这可能是 nano、vim 或其它编辑器。</p><pre><code>$ nano /home/$USER/Desktop/test</code></pre><p> c. 然后他会将上面的内容输入到文件中，保存并退出。</p><p> 忽略他/她使用的时间，他至少需要 3 步来执行上面的情况。</p><p> 一个经验丰富的 Linux 用户会怎么做呢？他会在终端中输入下面的文本然后就完成所有任务。他不需要单独执行每一步。</p><pre><code>cat &lt;&lt; EOF &gt; /home/$USER/Desktop/testABCDEFGHIJKLMNOPQRSTUVWXYZEOF</code></pre><p> 你可以用 ‘<code>cat</code>’ 命令检查是否成功创建了文件和内容。</p><pre><code>$ cat /home/avi/Desktop/test</code></pre><p> 检查文件内容</p></li><li><p>我们经常在 Linux 中处理归档文件（尤其是 TAR 包）。很多情况下我们会在某些位置，而不是在 Downloads 目录中使用 TAR 包。这种情况下我们怎么做呢？</p><p> 在这种情况下我们通常会做两件事。</p><p> a. 复制/移动 tar 包到目标位置并解压，例如：</p><pre><code>$ cp firefox-37.0.2.tar.bz2 /opt/</code></pre><p> 或</p><pre><code>$ mv firefox-37.0.2.tar.bz2 /opt/</code></pre><p> b. <code>cd</code> 到 <code>/opt/</code> 目录。</p><pre><code>$ cd /opt/</code></pre><p> c. 解压 tar 包。</p><pre><code># tar -jxvf firefox-37.0.2.tar.bz2</code></pre><p> 我们也可以采用另外一种方式。</p><p> 我们也可以在 Tar 包所在位置解压并复制/移动解压后的文件到所需的目标位置，例如：</p><pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 $ cp -R firefox/ /opt/</code></pre><p> 或</p><pre><code>$ mv firefox/ /opt/</code></pre><p> 不管哪种方式都需要两步才能完成任务。专业的人可以只用一步就完成这个任务：</p><pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/</code></pre><p> <code>-C</code> 选项提取文件到指定目录（这里是 <code>/opt/</code>）。</p><p> 这并不是关于选项（<code>-C</code>）的问题，而是习惯的问题。养成使用带 <code>-C</code> 选项 tar 命令的习惯。这会使你的工作更加轻松。从现在开始不要再移动归档文件或复制/移动解压后的文件了，在 Downloads 文件夹保存 tar 包并解压到你想要的任何地方吧。</p></li><li><p>常规方式我们怎样杀掉一个进程？</p><p> 最普遍的方法，我们首先用 <code>ps -A</code> 命令列出所有进程，然后通过管道输入到 <code>grep</code> 来查找进程/服务（假如 apache2），如下：</p><pre><code>$ ps -A | grep -i apache2</code></pre><p> 输出样例</p><pre><code>1006 ? 00:00:00 apache22702 ? 00:00:00 apache22703 ? 00:00:00 apache22704 ? 00:00:00 apache22705 ? 00:00:00 apache22706 ? 00:00:00 apache22707 ? 00:00:00 apache2</code></pre><p> 上面的输出显示了所有正在运行 apache2 的进程以及它们的 PID，然后你可以使用这些 PID 在下面命令的帮助下杀掉 apache2。</p><pre><code># kill 1006 2702 2703 2704 2705 2706 2707</code></pre><p> 然后交叉检查是否还有名称中包含 ‘<code>apache2</code>’ 的进程/服务在运行，如下：</p><pre><code>$ ps -A | grep -i apache2</code></pre><p> 实际上我们可以使用类似 <code>pgrep</code> 和 <code>pkill</code> 的工具以一种更容易理解的方式实现。你可以使用 <code>pgrep</code> 找到和一个进程相关的信息。假如你要找和 apache2 相关的进程信息，你只需要运行：</p><pre><code>$ pgrep apache2</code></pre><p> 输出样例</p><pre><code>15396154001540115402154031540415405</code></pre><p> 你也可以通过运行下面命令列出进程名称以及 pid。</p><pre><code>$ pgrep -l apache2</code></pre><p> 输出样例</p><pre><code>15396 apache215400 apache215401 apache215402 apache215403 apache215404 apache215405 apache2</code></pre><p> 用 <code>pkill</code> 杀掉进程非常简单。你只需要输入想要杀死的资源名称。我写了一篇关于 <code>pkill</code> 的博文，你可以参考： <a href="http://www.tecmint.com/how-to-kill-a-process-in-linux/。" target="_blank" rel="external">http://www.tecmint.com/how-to-kill-a-process-in-linux/。</a></p><p> 用 <code>pkill</code> 杀死一个进程（例如 apache2），你只需要输入以下命令：</p><pre><code># pkill apache2</code></pre><p> 你可以通过运行下面命令验证是否杀掉了 apache2。</p><pre><code>$ pgrep -l apache2</code></pre><p> 它没有输出任何东西并返回到窗口意味着没有名称中包含 apache2 的进程在运行。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;转载信息：&quot;&gt;&lt;a href=&quot;#转载信息：&quot; class=&quot;headerlink&quot; title=&quot;转载信息：&quot;&gt;&lt;/a&gt;转载信息：&lt;/h2&gt;&lt;p&gt;转载自&lt;a href=&quot;http://www.techug.com&quot; target=&quot;_blank&quot; rel=&quot;ex
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+      <category term="skills" scheme="http://yoursite.com/tags/skills/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
     
   </entry>
   
