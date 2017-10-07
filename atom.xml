@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://moflying.com/"/>
-  <updated>2017-09-13T20:31:01.000Z</updated>
+  <updated>2017-10-07T10:50:39.058Z</updated>
   <id>http://moflying.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 mac 上快速输入 Emoji 😃</title>
+    <link href="http://moflying.com/2017/10/07/%E5%9C%A8-Mac-%E4%B8%8A%E5%BF%AB%E9%80%9F%E8%BE%93%E5%85%A5-Emoji%F0%9F%98%83/"/>
+    <id>http://moflying.com/2017/10/07/在-Mac-上快速输入-Emoji😃/</id>
+    <published>2017-10-07T10:22:39.000Z</published>
+    <updated>2017-10-07T10:50:39.058Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>Emoji 已经融入我们的日常生活，例如我们常用的 <code>:joy:</code> <g-emoji alias="joy" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f602.png" ios-version="6.0">😂</g-emoji>。那么如何在 mac 上快速输入 Emoji 呢？</p><h2 id="在-mac-上快速输入-Emoji"><a href="#在-mac-上快速输入-Emoji" class="headerlink" title="在 mac 上快速输入 Emoji"></a>在 mac 上快速输入 Emoji</h2><h3 id="方法一（原生）："><a href="#方法一（原生）：" class="headerlink" title="方法一（原生）："></a>方法一（原生）：</h3><p>可以使用 macOS 自带的快捷键 <code>Control-Command-空格键</code> 来打开 Emoji 输入面板：</p><p><img src="http://zxjsdp1.qiniudn.com/mac-emoji-panel.jpg" alt="mac-emoji-panel"></p><p>还可以点击展开，以使用“收藏”等功能：</p><p><img src="http://zxjsdp1.qiniudn.com/mac-emoji-panel-expanded.jpg" alt="mac-emoji-panel-expanded"></p><p>详情可参考官方文档：<a href="https://support.apple.com/kb/PH25337?locale=zh_CN" target="_blank" rel="external">macOS Sierra: 使用表情和符号</a></p><h3 id="方法二（使用-alfred-emoji-workflow）："><a href="#方法二（使用-alfred-emoji-workflow）：" class="headerlink" title="方法二（使用 alfred-emoji-workflow）："></a>方法二（使用 alfred-emoji-workflow）：</h3><p>也可以使用 Alfred workflow <a href="https://github.com/carlosgaldino/alfred-emoji-workflow" target="_blank" rel="external">alfred-emoji-workflow</a> 来更加方便快捷地输入 Emoji：</p><p><img src="http://zxjsdp1.qiniudn.com/alfred-emoji.jpg" alt="alfred-emoji"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;Emoji 已经融入我们的日常生活，例如我们常用的 &lt;code&gt;:joy:&lt;/code&gt; &lt;g-emoji alias=&quot;joy&quot; fall
+      
+    
+    </summary>
+    
+      <category term="Tips" scheme="http://moflying.com/categories/Tips/"/>
+    
+    
+      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
+    
+      <category term="shortcuts" scheme="http://moflying.com/tags/shortcuts/"/>
+    
+      <category term="mac" scheme="http://moflying.com/tags/mac/"/>
+    
+      <category term="emoji" scheme="http://moflying.com/tags/emoji/"/>
+    
+      <category term="alfred" scheme="http://moflying.com/tags/alfred/"/>
+    
+  </entry>
   
   <entry>
     <title>我的 Mac Apps 推荐（待完善）</title>
@@ -621,37 +654,6 @@ def get_random_lis
       <category term="stanford" scheme="http://moflying.com/tags/stanford/"/>
     
       <category term="life" scheme="http://moflying.com/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[转载] Linux mkdir、tar 和 kill 命令的4个有用小技巧</title>
-    <link href="http://moflying.com/2015/09/06/%E8%BD%AC%E8%BD%BD-Linux-mkdir%E3%80%81tar-%E5%92%8C-kill-%E5%91%BD%E4%BB%A4%E7%9A%844%E4%B8%AA%E6%9C%89%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>http://moflying.com/2015/09/06/转载-Linux-mkdir、tar-和-kill-命令的4个有用小技巧/</id>
-    <published>2015-09-06T12:18:41.000Z</published>
-    <updated>2015-09-05T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="转载信息："><a href="#转载信息：" class="headerlink" title="转载信息："></a>转载信息：</h2><p>转载自<a href="http://www.techug.com" target="_blank" rel="external">程序师网站</a>：<a href="http://www.techug.com/mkdir-tar-and-kill-commands-in-linux" target="_blank" rel="external">Linux mkdir、tar 和 kill 命令的 4 个有用小技巧</a></p><p>英文原文：<a href="http://www.tecmint.com/mkdir-tar-and-kill-commands-in-linux/" target="_blank" rel="external">4 Useful Tips on mkdir, tar and kill Commands in Linux</a></p><h2 id="4个小技巧："><a href="#4个小技巧：" class="headerlink" title="4个小技巧："></a>4个小技巧：</h2><p>我们一直以常规的方式完成一个任务，直到我们知道有更好的处理方法。作为 Linux 技巧和绝招系列的后续，我会在这里介绍能在各个方面给你帮助的 4 个小技巧。开始吧！</p><p>4 个有用的 Linux 小技巧</p><h3 id="热身："><a href="#热身：" class="headerlink" title="热身："></a>热身：</h3><pre><code>1. $ mkdir -p tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}2. $ cat &lt;&lt; EOF &gt; /home/$USER/Desktop/test   $ ABC   $ DEF   $ GHI   $ JKL   $ MNO   $ PQR   $ STU   $ VWX   $ Y   $ Z   $ EOF3. $ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/4. $ pkill apache2   $ pgrep -l apache2</code></pre><h3 id="技巧说明："><a href="#技巧说明：" class="headerlink" title="技巧说明："></a>技巧说明：</h3><ol><li><p>假设你要创建一个类似于下面很长的/复杂的目录树。实现这最有效的方法是什么呢？</p><p> 类似下面要实现的目录树结构。</p><pre><code>$ cd /home/$USER/Desktop$ mkdir tecmint$ mkdir tecmint/etc$ mkdir tecmint/lib$ mkdir tecmint/usr$ mkdir tecmint/bin$ mkdir tecmint/tmp$ mkdir tecmint/opt$ mkdir tecmint/var$ mkdir tecmint/etc/x1$ mkdir tecmint/usr/x2$ mkdir tecmint/usr/x3$ mkdir tecmint/tmp/Y1$ mkdir tecmint/tmp/Y2$ mkdir tecmint/tmp/Y3$ mkdir tecmint/tmp/Y3/z</code></pre><p> 上述情况可以简单地通过运行下面一行命令来实现。</p><pre><code>$ mkdir -p /home/$USER/Desktop/tecmint/{etc/x1,lib,usr/{x2,x3},bin,tmp/{Y1,Y2,Y3/z},opt,var}</code></pre><p> 你可以用 <code>tree</code> 命令验证。如果没有安装你可以使用 <code>apt</code> 或 <code>yum</code> 安装 ‘<code>tree</code>’ 软件包。</p><pre><code>$ tree tecmint</code></pre><p> 检查目录结构</p><p> 我们可以用上面的方式创建任意复杂的目录树结构。注意这仅仅是一个普通的命令，但是用 ‘<code>{}</code>’ 来创建层级目录。需要的时候如果在 shell 脚本中使用是非常有用的。</p></li><li><p>在桌面（<code>/home/$USER/Desktop</code>）创建一个文件（例如 <code>test</code>）并填入以下内容。</p><pre><code>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code></pre><p> 这种情况一个普通用户会怎么做呢？</p><p> a. 他首先会创建文件，最好使用 <code>touch</code> 命令，例如：</p><pre><code>$ touch /home/$USER/Desktop/test</code></pre><p> b. 他会用一个文本编辑器打开文件，这可能是 nano、vim 或其它编辑器。</p><pre><code>$ nano /home/$USER/Desktop/test</code></pre><p> c. 然后他会将上面的内容输入到文件中，保存并退出。</p><p> 忽略他/她使用的时间，他至少需要 3 步来执行上面的情况。</p><p> 一个经验丰富的 Linux 用户会怎么做呢？他会在终端中输入下面的文本然后就完成所有任务。他不需要单独执行每一步。</p><pre><code>cat &lt;&lt; EOF &gt; /home/$USER/Desktop/testABCDEFGHIJKLMNOPQRSTUVWXYZEOF</code></pre><p> 你可以用 ‘<code>cat</code>’ 命令检查是否成功创建了文件和内容。</p><pre><code>$ cat /home/avi/Desktop/test</code></pre><p> 检查文件内容</p></li><li><p>我们经常在 Linux 中处理归档文件（尤其是 TAR 包）。很多情况下我们会在某些位置，而不是在 Downloads 目录中使用 TAR 包。这种情况下我们怎么做呢？</p><p> 在这种情况下我们通常会做两件事。</p><p> a. 复制/移动 tar 包到目标位置并解压，例如：</p><pre><code>$ cp firefox-37.0.2.tar.bz2 /opt/</code></pre><p> 或</p><pre><code>$ mv firefox-37.0.2.tar.bz2 /opt/</code></pre><p> b. <code>cd</code> 到 <code>/opt/</code> 目录。</p><pre><code>$ cd /opt/</code></pre><p> c. 解压 tar 包。</p><pre><code># tar -jxvf firefox-37.0.2.tar.bz2</code></pre><p> 我们也可以采用另外一种方式。</p><p> 我们也可以在 Tar 包所在位置解压并复制/移动解压后的文件到所需的目标位置，例如：</p><pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 $ cp -R firefox/ /opt/</code></pre><p> 或</p><pre><code>$ mv firefox/ /opt/</code></pre><p> 不管哪种方式都需要两步才能完成任务。专业的人可以只用一步就完成这个任务：</p><pre><code>$ tar -jxvf firefox-37.0.2.tar.bz2 -C /opt/</code></pre><p> <code>-C</code> 选项提取文件到指定目录（这里是 <code>/opt/</code>）。</p><p> 这并不是关于选项（<code>-C</code>）的问题，而是习惯的问题。养成使用带 <code>-C</code> 选项 tar 命令的习惯。这会使你的工作更加轻松。从现在开始不要再移动归档文件或复制/移动解压后的文件了，在 Downloads 文件夹保存 tar 包并解压到你想要的任何地方吧。</p></li><li><p>常规方式我们怎样杀掉一个进程？</p><p> 最普遍的方法，我们首先用 <code>ps -A</code> 命令列出所有进程，然后通过管道输入到 <code>grep</code> 来查找进程/服务（假如 apache2），如下：</p><pre><code>$ ps -A | grep -i apache2</code></pre><p> 输出样例</p><pre><code>1006 ? 00:00:00 apache22702 ? 00:00:00 apache22703 ? 00:00:00 apache22704 ? 00:00:00 apache22705 ? 00:00:00 apache22706 ? 00:00:00 apache22707 ? 00:00:00 apache2</code></pre><p> 上面的输出显示了所有正在运行 apache2 的进程以及它们的 PID，然后你可以使用这些 PID 在下面命令的帮助下杀掉 apache2。</p><pre><code># kill 1006 2702 2703 2704 2705 2706 2707</code></pre><p> 然后交叉检查是否还有名称中包含 ‘<code>apache2</code>’ 的进程/服务在运行，如下：</p><pre><code>$ ps -A | grep -i apache2</code></pre><p> 实际上我们可以使用类似 <code>pgrep</code> 和 <code>pkill</code> 的工具以一种更容易理解的方式实现。你可以使用 <code>pgrep</code> 找到和一个进程相关的信息。假如你要找和 apache2 相关的进程信息，你只需要运行：</p><pre><code>$ pgrep apache2</code></pre><p> 输出样例</p><pre><code>15396154001540115402154031540415405</code></pre><p> 你也可以通过运行下面命令列出进程名称以及 pid。</p><pre><code>$ pgrep -l apache2</code></pre><p> 输出样例</p><pre><code>15396 apache215400 apache215401 apache215402 apache215403 apache215404 apache215405 apache2</code></pre><p> 用 <code>pkill</code> 杀掉进程非常简单。你只需要输入想要杀死的资源名称。我写了一篇关于 <code>pkill</code> 的博文，你可以参考： <a href="http://www.tecmint.com/how-to-kill-a-process-in-linux/。" target="_blank" rel="external">http://www.tecmint.com/how-to-kill-a-process-in-linux/。</a></p><p> 用 <code>pkill</code> 杀死一个进程（例如 apache2），你只需要输入以下命令：</p><pre><code># pkill apache2</code></pre><p> 你可以通过运行下面命令验证是否杀掉了 apache2。</p><pre><code>$ pgrep -l apache2</code></pre><p> 它没有输出任何东西并返回到窗口意味着没有名称中包含 apache2 的进程在运行。</p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;转载信息：&quot;&gt;&lt;a href=&quot;#转载信息：&quot; class=&quot;headerlink&quot; title=&quot;转载信息：&quot;&gt;&lt;/a&gt;转载信息：&lt;/h2&gt;&lt;p&gt;转载自&lt;a href=&quot;http://www.techug.com&quot; target=&quot;_blank&quot; rel=&quot;ex
-      
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://moflying.com/categories/Linux/"/>
-    
-    
-      <category term="tips" scheme="http://moflying.com/tags/tips/"/>
-    
-      <category term="linux" scheme="http://moflying.com/tags/linux/"/>
-    
-      <category term="skills" scheme="http://moflying.com/tags/skills/"/>
-    
-      <category term="command" scheme="http://moflying.com/tags/command/"/>
     
   </entry>
   
